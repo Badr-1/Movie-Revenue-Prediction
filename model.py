@@ -1,3 +1,5 @@
+import datetime
+
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import OrdinalEncoder
@@ -43,7 +45,7 @@ def get_release_date(movie_id):
     response = requests.get('https://api.themoviedb.org/3/movie/{0}?api_key={1}'.format(movie_id, API_KEY))
     if (response.status_code == 200):
         date = response.json()['release_date']
-        formatted_date = datetime.datetime.strptime(date, '%Y-%m-%d').strftime('%d-%B-%y')
+        formatted_date = datetime.datetime.strptime(date, '%Y-%m-%d').strftime('%d-%b-%y')
         return formatted_date
     return
 
@@ -229,21 +231,29 @@ def preprocessing():
     # TODO waiting for dates
     # format_date()
 
-    # fill_directors()
     # encoding
     # feature selection
 
 
 # ==============================================================
 
-data = pd.read_csv("merged_full_data.csv")
 # data = merge_data()
-# preprocessing()
 # fill_revenue()
 # fill_release_date()
 # fill_genre()
 # fill_rating()
 # fill_directors()
+# preprocessing()
+# data.to_csv('merged_full_data.csv',index = False)
+
+
+data = pd.read_csv("merged_full_data.csv")
+
+data.drop(['character', 'voice-actor'], axis=1,inplace = True)
+data.drop_duplicates(inplace = True)
+data.dropna(inplace =True, subset=['revenue'])
+data = data[data.revenue != 0]
+data.to_csv('merged_full_datavTest.csv', index=False)
 
 # TODO find missing values in revenue
 
