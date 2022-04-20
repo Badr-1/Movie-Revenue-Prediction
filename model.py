@@ -4,6 +4,11 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import OrdinalEncoder
 from sklearn.preprocessing import OneHotEncoder
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn import linear_model
+from sklearn import metrics
 import matplotlib.pyplot as plt
 import numpy as np
 import requests
@@ -113,7 +118,7 @@ def fill_revenue():
 
 
 # Label encoding for MPAA_rate
-def encode_using_label():
+def rating_label_encoding():
     lbl_encode = LabelEncoder()
     data['rate'] = lbl_encode.fit_transform(data['MPAA_rating'])
     # print(data['rate'])
@@ -124,10 +129,11 @@ def encode_using_label():
     # print("rate Unique values: \n", data['rate'].unique())
 
     # plotting relation between rate after label encoding and revenue
-    plt.scatter(data['rate'], data['revenue'])
-    plt.xlabel('Rate (lbl encode', fontsize=12)
-    plt.ylabel('revenue', fontsize=12)
-    plt.show()
+    # plt.scatter(data['rate'], data['revenue'])
+    # plt.xlabel('Rate (lbl encode', fontsize=12)
+    # plt.ylabel('revenue', fontsize=12)
+    # plt.show()
+    data.drop(['MPAA_rating'], axis=1, inplace=True)
 
 
 # Ordinal encoder
@@ -154,7 +160,7 @@ def rating_ordinal_encoding():
 
 
 # One-Hot encoder
-def encode_one_hot():
+def rating_one_hot_encoding():
     global data
     rate_one_hot = pd.get_dummies(data['MPAA_rating'])
     rate_one_hot.drop(['Not Rated'], axis=1, inplace=True)
@@ -165,6 +171,7 @@ def encode_one_hot():
     # data['revenue'] = data['revenue'].astype(str).apply(lambda x: x.replace('-', '')).astype(int)
     # print("revenue")
     # print(data['revenue'])
+    data.drop(['MPAA_rating'], axis=1, inplace=True)
 
 
 def genre_one_hot_encoding():
@@ -179,10 +186,10 @@ def release_date_feature_extraction():
     data['day'] = pd.DatetimeIndex(data['release_date']).day
     data['month'] = pd.DatetimeIndex(data['release_date']).month
     data['weekend'] = 0
-    data['Summer'] = 0
-    data['Spring'] = 0
-    data['Autumn'] = 0
-    data['Winter'] = 0
+    # data['Summer'] = 0
+    # data['Spring'] = 0
+    # data['Autumn'] = 0
+    # data['Winter'] = 0
     data['new_movie'] = 0
     data['release_date'] = data['release_date'].str[-2:].astype(int)
     # data['revenue'] = data['revenue'].str[1:].replace(',', '', regex=True).astype('int64')
@@ -193,15 +200,15 @@ def release_date_feature_extraction():
         else:
             data.at[i, 'release_date'] = 2000 + data.at[i, 'release_date']
     # Getting the season of the year
-    for i in range(len(data)):
-        if data.at[i, 'month'] in [3, 4, 5]:
-            data.at[i, 'Spring'] = 1
-        elif data.at[i, 'month'] in [6, 7, 8]:
-            data.at[i, 'Summer'] = 1
-        elif data.at[i, 'month'] in [9, 10, 11]:
-            data.at[i, 'Autumn'] = 1
-        elif data.at[i, 'month'] in [1, 2, 12]:
-            data.at[i, 'Winter'] = 1
+    # for i in range(len(data)):
+    #     if data.at[i, 'month'] in [3, 4, 5]:
+    #         data.at[i, 'Spring'] = 1
+    #     elif data.at[i, 'month'] in [6, 7, 8]:
+    #         data.at[i, 'Summer'] = 1
+    #     elif data.at[i, 'month'] in [9, 10, 11]:
+    #         data.at[i, 'Autumn'] = 1
+    #     elif data.at[i, 'month'] in [1, 2, 12]:
+    #         data.at[i, 'Winter'] = 1
     # column for new movies (from 2005)
     for i in range(len(data)):
         if data.at[i, 'release_date'] >= 2005:
@@ -247,6 +254,9 @@ def directors_encoding():
 
     data.drop(['director'], axis=1, inplace=True)
 
+# def director_target_encoding():
+
+
 
 def preprocessing():
     # removing $ and ,
@@ -286,12 +296,55 @@ data.dropna(inplace=True, subset=['revenue', 'director', 'MPAA_rating'])
 
 data = data[data.revenue != 0]
 
-# encode_one_hot()
+# rating_label_encoding()
+# rating_one_hot_encoding()
 rating_ordinal_encoding()
+
 genre_one_hot_encoding()
 data.to_csv('merged_full_datavTest.csv', index=False)
 data = release_date_feature_extraction()
 directors_encoding()
 data = data[[col for col in data.columns if col != "revenue"] + ["revenue"]]
 
+y = data['revenue']
+x = data.iloc[:,0:-2]
+
+
+# scaling
+scaler = MinMaxScaler()
+x = scaler.fit_transform(x)
+
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=.20, shuffle=True, random_state=45)
+
+
+cls = linear_model.LinearRegression()
+cls.fit(x_train, y_train)
+prediction_linear = cls.predict(x_test)
+
+print('Mean Square Error', metrics.mean_squared_error(np.asarray(y_test), prediction_linear))
 data.to_csv('merged_full_datavTest.csv', index=False)
+
+
+
+
+
+# poly_features = PolynomialFeatures(degree=3)
+# x_train_poly = poly_features.fit_transform(x_train)
+#
+# poly_model = linear_model.LinearRegression()
+# poly_model.fit(x_train_poly, y_train)
+#
+#
+# y_train_predicted = poly_model.predict(x_train_poly)
+# ypred = poly_model.predict(poly_features.transform(x_test))
+#
+# # predicting on test data-set
+# prediction_ploy = poly_model.predict(poly_features.fit_transform(x_test))
+#
+# print('Mean Square Error', metrics.mean_squared_error(y_test, prediction_ploy))
+#
+# true_film_revenue = np.asarray(y_test)[0]
+# predicted_film_revenue = prediction_ploy[0]
+# print('True revenue for the first film in the test set in millions is : ' + str(true_film_revenue))
+# print('Predicted revenue for the first film in the test set in millions is : ' + str(predicted_film_revenue))
+
