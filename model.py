@@ -116,12 +116,12 @@ def fill_revenue():
 def encode_using_label():
     lbl_encode = LabelEncoder()
     data['rate'] = lbl_encode.fit_transform(data['MPAA_rating'])
-    print(data['rate'])
-    print(data['MPAA_rating'])
-
-    # print("data with out not rated:\n", data_with_notRated)
-    print("MPAA rate Unique values: \n", data['MPAA_rating'].unique())
-    print("rate Unique values: \n", data['rate'].unique())
+    # print(data['rate'])
+    # print(data['MPAA_rating'])
+    #
+    # # print("data with out not rated:\n", data_with_notRated)
+    # print("MPAA rate Unique values: \n", data['MPAA_rating'].unique())
+    # print("rate Unique values: \n", data['rate'].unique())
 
     # plotting relation between rate after label encoding and revenue
     plt.scatter(data['rate'], data['revenue'])
@@ -131,7 +131,7 @@ def encode_using_label():
 
 
 # Ordinal encoder
-def encode_using_order():
+def rating_ordinal_encoding():
     ord_encode = OrdinalEncoder()
     # data to Series
     sr = pd.Series(data['MPAA_rating'])
@@ -140,29 +140,42 @@ def encode_using_order():
     # ord_result = ord_encode.fit_transform(rate_array)
     # print(data['rate'])
     # print(data['MPAA_rating'])
-    mapped_rate = {'R': 1, 'PG': 2, 'PG-13': 3, 'G': 4, 'Not Rated': 3}
-    data['rate'] = data['MPAA_rating'].replace(mapped_rate)
-    print("Ordinal\n", data['rate'])
-    print("Original\n", data['MPAA_rating'])
+    mapped_rate = {'R': 1, 'PG': 2, 'PG-13': 3, 'G': 4, 'Not Rated': 3, 'NR': 3}
+    data['rate_ordinal'] = data['MPAA_rating'].replace(mapped_rate)
+    # print("Ordinal\n", data['rate_ordinal'])
+    # print("Original\n", data['MPAA_rating'])
 
-    plt.scatter(data['rate'], data['revenue'])
-    plt.xlabel('Rate (lbl encode', fontsize=12)
+    data.drop(['MPAA_rating'], axis=1, inplace=True)
+
+    plt.scatter(data['rate_ordinal'], data['revenue'])
+    plt.xlabel('Rate (lbl encode)', fontsize=12)
     plt.ylabel('revenue', fontsize=12)
-    plt.show()
+    # plt.show()
 
 
 # One-Hot encoder
 def encode_one_hot():
+    global data
     rate_one_hot = pd.get_dummies(data['MPAA_rating'])
     rate_one_hot.drop(['Not Rated'], axis=1, inplace=True)
-    print(rate_one_hot)
+    data = pd.concat([data, rate_one_hot], axis=1)
+
+    # print(rate_one_hot)
     data_len = len(data['revenue'])
     # data['revenue'] = data['revenue'].astype(str).apply(lambda x: x.replace('-', '')).astype(int)
-    print("revenue")
-    print(data['revenue'])
+    # print("revenue")
+    # print(data['revenue'])
 
 
-def format_date():
+def genre_one_hot_encoding():
+    global data
+    genre_one_hot = pd.get_dummies(data['genre'])
+    data = pd.concat([data, genre_one_hot], axis=1)
+    data.drop(['genre'], axis=1, inplace=True)
+
+
+def release_date_feature_extraction():
+    data = pd.read_csv('merged_full_datavTest.csv')
     data['day'] = pd.DatetimeIndex(data['release_date']).day
     data['month'] = pd.DatetimeIndex(data['release_date']).month
     data['weekend'] = 0
@@ -170,24 +183,30 @@ def format_date():
     data['Spring'] = 0
     data['Autumn'] = 0
     data['Winter'] = 0
+    data['new_movie'] = 0
     data['release_date'] = data['release_date'].str[-2:].astype(int)
-    data['revenue'] = data['revenue'].str[1:].replace(',', '', regex=True).astype('int64')
+    # data['revenue'] = data['revenue'].str[1:].replace(',', '', regex=True).astype('int64')
     # Getting the year in which the film was released
     for i in range(len(data)):
-        if data.at[i, 'release_date'] > 23 and data.at[i, 'release_date'] <= 99:
+        if data['release_date'].loc[i] > 23 and data['release_date'].loc[i] <= 99:
             data.at[i, 'release_date'] = 1900 + data.at[i, 'release_date']
         else:
             data.at[i, 'release_date'] = 2000 + data.at[i, 'release_date']
     # Getting the season of the year
     for i in range(len(data)):
-        if data.at[i, 'month'] >= 3 and data.at[i, 'month'] <= 5:
+        if data.at[i, 'month'] in [3, 4, 5]:
             data.at[i, 'Spring'] = 1
-        elif data.at[i, 'month'] >= 6 and data.at[i, 'month'] <= 8:
+        elif data.at[i, 'month'] in [6, 7, 8]:
             data.at[i, 'Summer'] = 1
-        elif data.at[i, 'month'] >= 9 and data.at[i, 'month'] <= 11:
+        elif data.at[i, 'month'] in [9, 10, 11]:
             data.at[i, 'Autumn'] = 1
-        elif data.at[i, 'month'] >= 12 and data.at[i, 'month'] <= 2:
+        elif data.at[i, 'month'] in [1, 2, 12]:
             data.at[i, 'Winter'] = 1
+    # column for new movies (from 2005)
+    for i in range(len(data)):
+        if data.at[i, 'release_date'] >= 2005:
+            data.at[i, 'new_movie'] = 1
+
     # Checking if the released date was a weekend or not
     for i in range(len(data)):
         data.at[i, 'weekend'] = pd.Timestamp(data.at[i, 'release_date'], data.at[i, 'month'], data.at[i, 'day'])
@@ -196,8 +215,9 @@ def format_date():
         else:
             data.at[i, 'weekend'] = 0
 
-    data['release_date'] = data['release_date'] * 100 + data['month']
-    print(data[['Spring', 'Summer', 'Autumn', 'Winter', 'release_date', 'weekend']])
+    # data['release_date'] = data['release_date'] * 100 + data['month']
+    # print(data[['Spring', 'Summer', 'Autumn', 'Winter', 'release_date', 'weekend']])
+    return data
 
 
 def merge_data():
@@ -216,6 +236,16 @@ def merge_data():
     # reorder revenue column
     merged_data = merged_data[[col for col in merged_data.columns if col != "revenue"] + ["revenue"]]
     return merged_data
+
+
+def directors_encoding():
+    directors_movies = data['director'].value_counts()
+    for x in directors_movies.index:
+        if directors_movies[x] >= 3:
+            data[x] = 0
+            data.loc[data.director == x, x] = 1
+
+    data.drop(['director'], axis=1, inplace=True)
 
 
 def preprocessing():
@@ -247,18 +277,21 @@ def preprocessing():
 # data.to_csv('merged_full_data.csv',index = False)
 
 
+global data
 data = pd.read_csv("merged_full_data.csv")
 
-data.drop(['character', 'voice-actor'], axis=1,inplace = True)
-data.drop_duplicates(inplace = True)
-data.dropna(inplace =True, subset=['revenue'])
+data.drop(['character', 'voice-actor', 'movie_title'], axis=1, inplace=True)
+data.drop_duplicates(inplace=True)
+data.dropna(inplace=True, subset=['revenue', 'director', 'MPAA_rating'])
+
 data = data[data.revenue != 0]
+
+# encode_one_hot()
+rating_ordinal_encoding()
+genre_one_hot_encoding()
 data.to_csv('merged_full_datavTest.csv', index=False)
+data = release_date_feature_extraction()
+directors_encoding()
+data = data[[col for col in data.columns if col != "revenue"] + ["revenue"]]
 
-# TODO find missing values in revenue
-
-# TODO encoding [genre,rating,director,voice-actors]
-
-# TODO feature selection (drop characters or other more)
-
-# TODO build two models
+data.to_csv('merged_full_datavTest.csv', index=False)

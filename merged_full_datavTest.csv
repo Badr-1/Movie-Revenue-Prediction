@@ -1,474 +1,457 @@
-movie_title,release_date,genre,MPAA_rating,director,revenue
-Recess: School's Out,16-Feb-01,Comedy,G,Chuck Sheetz,54656124.0
-D2: The Mighty Ducks,25-Mar-94,Comedy,PG,Sam Weisman,94226333.0
-Home on the Range,2-Apr-04,Comedy,PG,Will Finn,67910166.0
-Young Black Stallion,25-Dec-03,Adventure,G,Simon Wincer,9254344.0
-What's Love Got to Do With It,9-Jun-93,Drama,R,Brian Gibson,79618610.0
-Lady and the Tramp,22-Jun-55,Drama,G,Hamilton Luske,1236035515.0
-Corky Romano,12-Oct-01,Comedy,PG-13,Rob Pritts,35705805.0
-The Waterboy,6-Nov-98,Comedy,PG-13,Frank Coraci,288691833.0
-Captain America: The Winter Soldier,4-Apr-14,Action,PG-13,Anthony Russo,268013076.0
-Pirates of the Caribbean: Dead Man’…,7-Jul-06,Adventure,PG-13,Gore Verbinski,544817142.0
-Ladder 49,1-Oct-04,Action,PG-13,Jay Russell,101161045.0
-Coyote Ugly,4-Aug-00,Drama,PG-13,David McNally,95070168.0
-The Sixth Man,28-Mar-97,Comedy,PG-13,Randall Miller,27117599.0
-Dick Tracy,15-Jun-90,Action,PG,Warren Beatty,207231621.0
-Sister Act 2 Back in the Habit,10-Dec-93,Comedy,PG,Bill Duke,116965668.0
-DuckTales: The Movie - Treasure of th…,3-Aug-90,Adventure,G,,36107823.0
-Blame it on the Bellboy,6-Mar-92,Comedy,PG-13,Mark Herman,5872667.0
-The Hunchback of Notre Dame,21-Jun-96,Adventure,G,Gary Trousdale,190988799.0
-Ernest Goes to Jail,6-Apr-90,Comedy,PG,John R. Cherry III,49999822.0
-Ant-Man,17-Jul-15,Action,PG-13,Peyton Reed,180202163.0
-The Shaggy Dog,10-Mar-06,Comedy,PG,Brian Robbins,78667428.0
-The Life Aquatic with Steve Zissou,10-Dec-04,Comedy,R,Wes Anderson,32198655.0
-Bridge to Terabithia,16-Feb-07,Drama,PG,Gábor Csupó,100760721.0
-Beauty and the Beast,13-Nov-91,Musical,G,Gary Trousdale,363017667.0
-Miami Rhapsody,27-Jan-95,Romantic Comedy,PG-13,David Frankel,9857435.0
-A Bug's Life,20-Nov-98,Adventure,G,John Lasseter,288981698.0
-3 Men and a Little Lady,21-Nov-90,Comedy,PG,Emile Ardolino,143108869.0
-The Puppet Masters,21-Oct-94,Horror,R,Stuart Orme,17727017.0
-Signs,2-Aug-02,Thriller/Suspense,PG-13,M. Night Shyamalan,330754439.0
-Dead Presidents,4-Oct-95,Drama,R,Albert Hughes,46741467.0
-"McFarland, USA",20-Feb-15,Drama,PG,Niki Caro,44480275.0
-George Of The Jungle,16-Jul-97,Comedy,PG,Sam Weisman,193326632.0
-Bound by Honor,16-Apr-93,Crime,R,Taylor Hackford,9156084.0
-The Avengers,4-May-12,Action,PG-13,Joss Whedon,660081224.0
-Ten Things I Hate About You,31-Mar-99,Romantic Comedy,PG-13,Andre Paras,63354375.0
-Earth,22-Apr-09,Documentary,G,Kevin Nolting,35981010.0
-Hello Again,6-Nov-87,Comedy,PG,Frank Perry,44024529.0
-When a Man Loves a Woman,29-Apr-94,Drama,R,Luis Mandoki,103354194.0
-Unbreakable,22-Nov-00,Thriller/Suspense,PG-13,M. Night Shyamalan,148208901.0
-3 Men and a Baby,25-Nov-87,Comedy,PG,Leonard Nimoy,353334607.0
-X Games 3D: The Movie,21-Aug-09,Documentary,PG,Steven Lawrence,1563976.0
-Cars 2,24-Jun-11,Adventure,G,John Lasseter,203522177.0
-The Princess Diaries 2: Royal Engagement,11-Aug-04,Romantic Comedy,G,Garry Marshall,129164207.0
-The Jungle Book 2,14-Feb-03,Adventure,G,Steve Trenbirth,66966883.0
-Aspen Extreme,22-Jan-93,Romantic Comedy,PG-13,Patrick Hasburgh,15970955.0
-Noises Off...,20-Mar-92,Comedy,PG-13,Peter Bogdanovich,4631720.0
-He Got Game,1-May-98,Drama,R,Spike Lee,38766948.0
-Bringing Down the House,7-Mar-03,Comedy,PG-13,Adam Shankman,185481530.0
-Bon Voyage!,17-May-62,Comedy,Not Rated,Jean-Paul Rappeneau,109581646.0
-Doctor Strange,4-Nov-16,Adventure,PG-13,Scott Derrickson,232532923.0
-Flubber,26-Nov-97,Comedy,PG,Les Mayfield,170406423.0
-Roving Mars,27-Jan-06,Documentary,G,George Butler,12948025.0
-Captain Ron,18-Sep-92,Comedy,PG-13,Thom Eberhardt,45741576.0
-Shadow Conspiracy,31-Jan-97,Thriller/Suspense,R,George P. Cosmatos,3957025.0
-Good Morning Vietnam,23-Dec-87,Comedy,R,Barry Levinson,254414837.0
-Babes in Toyland,14-Dec-61,Musical,G,Jack Donohue,124841160.0
-An Innocent Man,6-Oct-89,Drama,R,Peter Yates,40983414.0
-Summer of Sam,2-Jul-99,Drama,R,Spike Lee,32007656.0
-The Good Dinosaur,25-Nov-15,Adventure,PG,Peter Sohn,123087120.0
-Angels in the Outfield,15-Jul-94,Comedy,PG,William Dear,103798152.0
-Tough Guys,3-Oct-86,Comedy,PG,Jeff Kanew,48758184.0
-Something Wicked This Way Comes,29-Apr-83,Horror,PG,Jack Clayton,15136765.0
-The Rocketeer,21-Jun-91,Action,PG,Joe Johnston,93256673.0
-Stakeout,5-Aug-87,Comedy,R,John Badham,141592160.0
-National Treasure 2: Book of Secrets,21-Dec-07,Adventure,PG,Jon Turteltaub,267003525.0
-Terminal Velocity,23-Sep-94,Action,PG-13,Deran Sarafian,34048315.0
-Apocalypto,8-Dec-06,Adventure,R,Mel Gibson,64959548.0
-Invincible,25-Aug-06,Drama,PG,Ericson Core,74398864.0
-25th Hour,19-Dec-02,Drama,R,Spike Lee,18325463.0
-Mighty Joe Young,25-Dec-98,Adventure,PG,Ron Underwood,87906042.0
-Deceived,27-Sep-91,Thriller/Suspense,PG-13,Damian Harris,57544453.0
-Never Cry Wolf,7-Oct-83,Drama,PG,Carroll Ballard,70669955.0
-G-Force,24-Jul-09,Adventure,PG,Hoyt Yeatman,134246932.0
-Feast of July,13-Oct-95,Drama,R,Christopher Menaul,568342.0
-The Lookout,30-Mar-07,Drama,R,Scott Frank,5637048.0
-Cool Runnings,1-Oct-93,Comedy,PG,Jon Turteltaub,140392731.0
-Alice Through the Looking Glass,27-May-16,Adventure,PG,James Bobin,77042381.0
-The Devil and Max Devlin,1-Jan-81,Fantasy,PG,Steven Hilliard Stern,48517980.0
-The Chronicles of Narnia: Prince Caspian,16-May-08,Adventure,PG,Andrew Adamson,166277038.0
-The Insider,5-Nov-99,Drama,R,Michael Mann,47794214.0
-Camp Nowhere,26-Aug-94,Comedy,PG,Jonathan Prince,21576332.0
-The Rock,7-Jun-96,Action,R,Michael Bay,255702705.0
-Green Card,25-Dec-90,Romantic Comedy,PG-13,Peter Weir,59679131.0
-Real Steel,7-Oct-11,Action,PG-13,Shawn Levy,90848019.0
-A Kid in King Arthur's Court,11-Aug-95,Adventure,PG,Michael Gottlieb,25981285.0
-The Last Flight of Noah’s Ark,25-Jun-80,Adventure,G,Charles Jarrott,34472116.0
-African Cats,22-Apr-11,Documentary,G,Alastair Fothergill,16401551.0
-Toy Story 3D Double Feature,2-Oct-09,Adventure,G,,34509545.0
-Into the Woods,25-Dec-14,Musical,PG,Rob Marshall,130894237.0
-Finding Nemo,30-May-03,Adventure,G,Andrew Stanton,518148559.0
-The Good Mother,4-Nov-88,Drama,R,Steve Antin,9772655.0
-The Hundred-Foot Journey,8-Aug-14,Romantic Comedy,PG,Lasse Hallström,55961409.0
-Pearl Harbor,25-May-01,Action,PG-13,Michael Bay,295705112.0
-Pirates of the Caribbean: At World’…,24-May-07,Adventure,PG-13,Gore Verbinski,379129960.0
-Color of Night,19-Aug-94,Thriller/Suspense,R,Richard Rush,40804816.0
-Romy and Michele's High School Reunion,25-Apr-97,Comedy,R,David Mirkin,53693680.0
-Cheetah,18-Aug-89,Adventure,G,Oz Scott,16653473.0
-Jack,9-Aug-96,Drama,PG-13,Lawrence Fowler,111792852.0
-Monsters University,21-Jun-13,Adventure,G,Dan Scanlon,278395641.0
-The Fifth Estate,18-Oct-13,Drama,R,Bill Condon,3374251.0
-Before and After,23-Feb-96,Drama,PG-13,Barbet Schroeder,16482589.0
-Moonlight Mile,27-Sep-02,Drama,PG-13,Brad Silberling,9909094.0
-A Stranger Among Us,17-Jul-92,Drama,PG-13,Sidney Lumet,24950752.0
-The Lizzie McGuire Movie,2-May-03,Comedy,PG,Jim Fall,59743191.0
-Krippendorf's Tribe,27-Feb-98,Comedy,PG-13,Todd Holland,13608633.0
-crazy/beautiful,29-Jun-01,Drama,PG-13,John Stockwell,25214223.0
-Adventures in Babysitting,3-Jul-87,Comedy,G,John Schultz,72853569.0
-The Game Plan,22-Sep-07,Comedy,PG,Andy Fickman,111010758.0
-Splash,9-Mar-84,Comedy,PG,Ron Howard,157057661.0
-Who Framed Roger Rabbit?,22-Jun-88,Comedy,PG,Robert Zemeckis,316250084.0
-The Light Between Oceans,2-Sep-16,Drama,PG-13,Derek Cianfrance,12545979.0
-The Guardian,29-Sep-06,Action,PG-13,Andrew Davis,70801353.0
-The Sword in the Stone,25-Dec-63,Adventure,G,Wolfgang Reitherman,153870834.0
-Mr. Holland's Opus,29-Dec-95,Drama,PG,Stephen Herek,157508868.0
-The Rescuers Down Under,16-Nov-90,Adventure,G,Mike Gabriel,55796728.0
-The Preacher's Wife,13-Dec-96,Drama,PG,Penny Marshall,91076877.0
-Sarafina!,18-Sep-92,Drama,PG-13,Darrell James Roodt,14841352.0
-Trenchcoat,11-Mar-83,Comedy,PG,Michael Tuchner,11519089.0
-Confessions of a Teenage Drama Queen,20-Feb-04,Comedy,PG,Sara Sugarman,39816568.0
-Around the World in 80 Days,16-Jun-04,Adventure,PG,Frank Coraci,32585356.0
-Blaze,13-Dec-89,Drama,R,Ron Shelton,39884640.0
-Toy Story,22-Nov-95,Adventure,G,John Lasseter,370409631.0
-Prince of Persia: Sands of Time,28-May-10,Action,PG-13,Mike Newell,96971361.0
-Eddie,31-May-96,Comedy,PG-13,Steve Rash,59828966.0
-White Fang 2: Myth of the White Wolf,15-Apr-94,Adventure,PG,Ken Olin,18083994.0
-White Squall,2-Feb-96,Adventure,PG-13,Ridley Scott,19509726.0
-The Invisible,27-Apr-07,Thriller/Suspense,PG-13,Leigh Whannell,25202168.0
-Guilty as Sin,4-Jun-93,Thriller/Suspense,R,Sidney Lumet,46064723.0
-Operation Dumbo Drop,28-Jul-95,Adventure,PG,Simon Wincer,47809421.0
-Ghosts of the Abyss,11-Apr-03,Documentary,G,James Cameron,23803108.0
-Scenes from a Mall,22-Feb-91,Comedy,R,Paul Mazursky,19149495.0
-The BFG,1-Jul-16,Adventure,PG,Steven Spielberg,55483770.0
-Tron,9-Jul-82,Action,PG,Joseph Kosinski,77184895.0
-Firelight,4-Sep-98,Drama,R,William Nicholson,1409943.0
-Delivery Man,22-Nov-13,Comedy,PG-13,Ken Scott,31787136.0
-New York Stories,1-Mar-89,Drama,PG,Francis Ford Coppola,22740861.0
-Disorganized Crime,14-Apr-89,Comedy,R,Jim Kouf,15233465.0
-Tom and Huck,22-Dec-95,Adventure,PG,Peter Hewitt,45911517.0
-Keeping the Faith,14-Apr-00,Romantic Comedy,PG-13,Edward Norton,57925202.0
-Grosse Pointe Blank,11-Apr-97,Black Comedy,R,George Armitage,51579764.0
-Indian Summer,23-Apr-93,Comedy,R,Mike Binder,29968953.0
-The Princess and the Frog,25-Nov-09,Adventure,G,Ron Clements,116316457.0
-Billy Bathgate,1-Nov-91,Drama,R,Robert Benton,31167691.0
-3 Ninjas Kick Back,6-May-94,Action,PG,Charles T. Kanganis,24267154.0
-My Boyfriend's Back,6-Aug-93,Comedy,PG-13,Bob Balaban,6554384.0
-Goal! The Dream Begins,12-May-06,Drama,PG,Danny Cannon,5512647.0
-Country,29-Sep-84,Drama,,Francis Lee,21075000.0
-Big Trouble,5-Apr-02,Comedy,PG-13,Barry Sonnenfeld,10537188.0
-People Like Us,29-Jun-12,Drama,PG-13,Alex Kurtzman,13165822.0
-Mars Needs Moms,11-Mar-11,Adventure,PG,Simon Wells,22741603.0
-Angie,4-Mar-94,Comedy,R,Martha Coolidge,19116981.0
-Deuce Bigalow: Male Gigolo,10-Dec-99,Comedy,R,Mike Mitchell,106921374.0
-Veronica Guerin,17-Oct-03,Drama,R,Joel Schumacher,2194759.0
-Max Keeble's Big Move,5-Oct-01,Comedy,PG,Tim Hill,25749730.0
-The Scarlet Letter,13-Oct-95,Drama,R,Roland Joffé,20075033.0
-D3: The Mighty Ducks,4-Oct-96,Comedy,PG,Rob Lieberman,43713554.0
-Up,29-May-09,Adventure,PG,Darrell Van Citters,329336681.0
-Alive,15-Jan-93,Adventure,R,Frank Marshall,73914543.0
-Can't Buy Me Love,14-Aug-87,Romantic Comedy,PG-13,Steve Rash,68181300.0
-The Hoax,6-Apr-07,Drama,R,Lasse Hallström,8779196.0
-Fantasia,13-Nov-40,Musical,G,full credits,2187090808.0
-Crimson Tide,12-May-95,Action,R,Tony Scott,177102077.0
-Ransom,8-Nov-96,Action,R,Ron Howard,259807820.0
-Pretty Woman,23-Mar-90,Romantic Comedy,R,Garry Marshall,356389765.0
-Inspector Gadget,23-Jul-99,Comedy,PG,David Kellogg,161610341.0
-Winnie the Pooh,15-Jul-11,Adventure,G,Stephen J. Anderson,28375869.0
-The Tigger Movie,11-Feb-00,Adventure,G,Jun Falkenstein,71228678.0
-Heavy Weights,17-Feb-95,Comedy,PG,Steven Brill,34245779.0
-What About Bob?,17-May-91,Comedy,PG,Frank Oz,127571325.0
-The Haunted Mansion,26-Nov-03,Comedy,PG,Rob Minkoff,105775678.0
-The Hitchhiker's Guide to the Galaxy,29-Apr-05,Comedy,PG,Garth Jennings,67096891.0
-Bedknobs and Broomsticks,7-Oct-71,Musical,G,Robert Stevenson,91305448.0
-Pooh's Heffalump Movie,11-Feb-05,Adventure,G,Frank Nissen,23801835.0
-Open Range,15-Aug-03,Western,R,Kevin Costner,81547672.0
-D.O.A.,18-Mar-88,Thriller/Suspense,PG-13,Corey Yuen,26062188.0
-Meet the Deedles,27-Mar-98,Comedy,PG,Steve Boyum,7829877.0
-A Beautiful Planet,29-Apr-16,Documentary,G,Toni Myers,7895708.0
-Sister Act,29-May-92,Comedy,PG,Emile Ardolino,283583472.0
-Strange Magic,23-Jan-15,Adventure,PG,Gary Rydstrom,12429583.0
-Quiz Show,14-Sep-94,Drama,PG-13,Robert Redford,50840394.0
-While You Were Sleeping,21-Apr-95,Romantic Comedy,PG,Jon Turteltaub,157082900.0
-Bedtime Stories,25-Dec-08,Comedy,PG,Adam Shankman,128039679.0
-"The Chronicles of Narnia: The Lion, t…",9-Dec-05,Adventure,PG,,381557539.0
-Instinct,4-Jun-99,Drama,R,Paul Verhoeven,56595842.0
-Step Up,11-Aug-06,Drama,PG-13,Anne Fletcher,84078780.0
-G.I. Jane,22-Aug-97,Drama,R,Ridley Scott,88467531.0
-Oscar,26-Apr-91,Comedy,PG,John Landis,47181395.0
-The Parent Trap,29-Jul-98,Comedy,PG,Nancy Meyers,119185667.0
-Primeval,12-Jan-07,Adventure,R,Michael Katleman,12985302.0
-The Lone Ranger,2-Jul-13,Western,PG-13,Gore Verbinski,92597388.0
-"Monsters, Inc.",2-Nov-01,Adventure,G,Pete Docter,416073179.0
-Reign of Fire,19-Feb-02,Action,PG-13,Rob Bowman,62480631.0
-Running Brave,4-Nov-83,Drama,PG,Donald Shebib,3223725.0
-Dinosaur,19-May-00,Adventure,PG,Ralph Zondag,215438985.0
-Rushmore,11-Dec-98,Black Comedy,R,Wes Anderson,28392518.0
-Freaky Friday,21-Jan-77,Comedy,PG,Mark Waters,98067733.0
-The 13th Warrior,27-Aug-99,Action,R,John McTiernan,54262148.0
-Brave,22-Jun-12,Adventure,PG,Brenda Chapman,251292441.0
-Eight Below,17-Feb-06,Adventure,PG,Frank Marshall,105037235.0
-Gake no ue no Ponyo,14-Aug-09,Adventure,G,Hayao Miyazaki,16961607.0
-Queen of Katwe,23-Sep-16,Drama,PG,Mira Nair,8874389.0
-Straight Talk,3-Apr-92,Comedy,PG,Barnet Kellman,43068356.0
-Holy Man,9-Oct-98,Comedy,PG,Stephen Herek,21694605.0
-The Sorcerer's Apprentice,14-Jul-10,Adventure,PG,Jon Turteltaub,67473105.0
-Stella,2-Feb-90,Drama,PG-13,Thomas Sieben,40077147.0
-An American Werewolf in Paris,25-Dec-97,Horror,R,Anthony Waller,48546161.0
-The Mighty Ducks,2-Oct-92,Comedy,PG,Sam Weisman,103120810.0
-Tall Tale,24-Mar-95,Western,PG,Jeremiah S. Chechik,15983331.0
-Tangled,24-Nov-10,Adventure,PG,Nathan Greno,214388548.0
-Ed Wood,30-Sep-94,Comedy,R,Tim Burton,12042634.0
-The Jerky Boys,3-Feb-95,Comedy,R,James Melkonian,14641561.0
-The Rich Man's Wife,13-Sep-96,Thriller/Suspense,R,Amy Holden Jones,16284619.0
-"20,000 Leagues Under the Sea",23-Dec-54,Adventure,,,528279994.0
-Super Mario Bros.,28-May-93,Action,PG,Annabel Jankel,42445058.0
-The Proposal,19-Jun-09,Romantic Comedy,PG-13,Anne Fletcher,184288829.0
-Race to Witch Mountain,13-Mar-09,Adventure,PG,Andy Fickman,75501997.0
-The Adventures of Huck Finn,2-Apr-93,Adventure,PG,Stephen Sommers,49080505.0
-Jefferson in Paris,31-Mar-95,Drama,PG-13,James Ivory,4770461.0
-The Jungle Book,15-Apr-16,Adventure,PG,Wolfgang Reitherman,364001123.0
-The Jungle Book,18-Oct-67,Musical,Not Rated,Wolfgang Reitherman,789612346.0
-Sky High,29-Jul-05,Adventure,PG,Mike Mitchell,84088854.0
-Toy Story 2,19-Nov-99,Adventure,G,John Lasseter,404450426.0
-The Rescuers,22-Jun-77,Adventure,G,Wolfgang Reitherman,159743914.0
-Remember the Titans,29-Sep-00,Drama,PG,Boaz Yakin,180742479.0
-A Lot Like Love,22-Apr-05,Comedy,PG-13,Nigel Cole,28716947.0
-3 Ninjas,7-Aug-92,Action,PG,Jon Turteltaub,58965304.0
-Flight of the Navigator,30-Jul-86,Adventure,PG,Randal Kleiser,42183197.0
-America's Heart and Soul,2-Jul-04,Documentary,Not Rated,Louis Schwartsberg,426246.0
-Swing Vote,1-Aug-08,Comedy,PG-13,Joshua Michael Stern,19125841.0
-The Straight Story,15-Oct-99,Drama,G,David Lynch,10111144.0
-The Kid,7-Jul-00,Comedy,PG,Jon Turteltaub,108993148.0
-Enchanted,21-Nov-07,Romantic Comedy,PG,Kevin Lima,156074310.0
-Zootopia,4-Mar-16,Adventure,PG,Byron Howard,341268248.0
-I'll Be Home For Christmas,13-Nov-98,Comedy,PG,Arlene Sanford,21941840.0
-The War at Home,20-Nov-96,Drama,R,Emilio Estevez,65543.0
-Peter Pan: Return to Neverland,15-Feb-02,Adventure,G,Robin Budd,70269715.0
-Ratatouille,29-Jun-07,Comedy,G,Brad Bird,252955933.0
-Secretariat,8-Oct-10,Drama,PG,Randall Wallace,63781920.0
-Medicine Man,7-Feb-92,Drama,PG-13,John McTiernan,91304495.0
-A Thousand Acres,19-Sep-97,Drama,R,Jocelyn Moorhouse,14561324.0
-Mission to Mars,10-Mar-00,Adventure,PG,Brian De Palma,95208344.0
-Brother Bear,24-Oct-03,Adventure,G,Robert Walker,119218333.0
-Snow White and the Seven Dwarfs,21-Dec-37,Musical,G,David Hand,5228953251.0
-Toy Story 3,18-Jun-10,Adventure,G,Lee Unkrich,443408255.0
-Miracle,6-Feb-04,Drama,PG,Gavin O'Connor,87392478.0
-My Favorite Martian,12-Feb-99,Comedy,PG,Donald Petrie,61150849.0
-Benji the Hunted,5-Jun-87,Adventure,G,Joe Camp,32798382.0
-A Far Off Place,12-Mar-93,Adventure,PG,Mikael Salomon,26248558.0
-Old Dogs,25-Nov-09,Comedy,PG,Walt Becker,55503929.0
-Alice in Wonderland,5-Mar-10,Adventure,PG,Clyde Geronimi,357063499.0
-The Little Mermaid,15-Nov-89,Adventure,G,Ron Clements,223726012.0
-Stick It,28-Apr-06,Comedy,PG-13,Jessica Bendinger,34634731.0
-Funny Bones,31-Mar-95,Comedy,R,Peter Chelsom,1025425.0
-Cars,9-Jun-06,Comedy,G,John Lasseter,314140384.0
-Bicentennial Man,17-Dec-99,Drama,PG,Chris Columbus,94838225.0
-Chimpanzee,20-Apr-12,Documentary,G,Alastair Fothergill,30675725.0
-The Apple Dumpling Gang,1-Jul-75,Comedy,G,Norman Tokar,131246872.0
-The Other Sister,26-Feb-99,Romantic Comedy,PG-13,Garry Marshall,46145331.0
-A Simple Twist of Fate,2-Sep-94,Drama,PG-13,Gillies MacKinnon,7035189.0
-Where the Heart Is,23-Feb-90,Comedy,PG-13,Matt Williams,2210321.0
-Kaze Tachinu,8-Nov-13,Drama,PG-13,Mitsuo Wakasugi,5367415.0
-Off Beat,11-Apr-86,Comedy,PG,Michael Dinner,11003932.0
-The Greatest Game Ever Played,30-Sep-05,Drama,PG,Bill Paxton,20162672.0
-The Three Musketeers,12-Nov-93,Adventure,PG,William Lau,109310377.0
-A Civil Action,25-Dec-98,Drama,PG-13,Steven Zaillian,94139530.0
-Walt and El Grupo,10-Sep-09,Documentary,PG,Theodore Thomas,23064.0
-Powder,27-Oct-95,Drama,PG-13,Victor Salva,59727216.0
-1492: Conquest of Paradise,9-Oct-92,Adventure,PG-13,Ridley Scott,14421454.0
-The Cemetery Club,3-Feb-93,Comedy,PG-13,Bill Duke,11369541.0
-Stay Alive,24-Mar-06,Horror,PG-13,William Brent Bell,29712825.0
-That Darn Cat,14-Feb-97,Comedy,PG,Bob Spiers,33613158.0
-The Muppet Christmas Carol,11-Dec-92,Comedy,G,Brian Henson,55417615.0
-Step Up 2 the Streets,14-Feb-08,Drama,PG-13,Jon M. Chu,68118371.0
-Fantasia 2000 (Theatrical Release),16-Jun-00,Musical,G,,14238144.0
-The Santa Clause 2,1-Nov-02,Comedy,G,Michael Lembeck,201959095.0
-The Recruit,31-Jan-03,Thriller/Suspense,PG-13,Roger Donaldson,73793522.0
-Money for Nothing,10-Sep-93,Comedy,R,Ramón Menéndez,2127496.0
-Bad Company,20-Jan-95,Thriller/Suspense,R,Joel Schumacher,6829092.0
-Bad Company,7-Jun-02,Action,PG-13,Joel Schumacher,43756218.0
-I Love Trouble,29-Jun-94,Romantic Comedy,PG,Charles Shyer,63651027.0
-The Absent Minded Professor,16-Mar-61,Comedy,G,Robert Stevenson,310094574.0
-Jungle 2 Jungle,7-Mar-97,Comedy,PG,John Pasquin,110058379.0
-Tex,19-Nov-82,Drama,PG,Tim Hunter,20643199.0
-Life With Mikey,4-Jun-93,Comedy,PG,James Lapine,25146538.0
-Gone Fishin',30-May-97,Comedy,PG,Christopher Cain,36265379.0
-Rogue One: A Star Wars Story,16-Dec-16,Adventure,PG-13,Gareth Edwards,529483936.0
-The Marrying Man,5-Apr-91,Romantic Comedy,R,Jerry Rees,24939118.0
-Bubble Boy,24-Aug-01,Comedy,PG-13,Blair Hayes,7450434.0
-Baby: Secret of the Lost Legend,22-Mar-85,Adventure,PG,Bill L. Norton,33900697.0
-The Fox and the Hound,10-Jul-81,Comedy,G,Art Stevens,133118889.0
-High Heels and Low Lifes,26-Oct-01,Action,R,Mel Smith,337782.0
-The Tie That Binds,8-Sep-95,Thriller/Suspense,R,Wesley Strick,11167895.0
-John Carter,9-Mar-12,Adventure,PG-13,Andrew Stanton,77372445.0
-Blank Check,11-Feb-94,Comedy,PG,Rupert Wainwright,63170804.0
-Guardians of the Galaxy,1-Aug-14,Adventure,PG-13,James Gunn,343771168.0
-Star Wars Ep. VII: The Force Awakens,18-Dec-15,Adventure,PG-13,,936662225.0
-A Goofy Movie,7-Apr-95,Comedy,G,Kevin Lima,68479579.0
-Hocus Pocus,16-Jul-93,Comedy,PG,Kenny Ortega,80147079.0
-Pete’s Dragon,12-Aug-16,Adventure,PG,David Lowery,76233151.0
-Night Crossing,5-Feb-82,Drama,PG,Delbert Mann,12903059.0
-Lilo & Stitch,21-Jun-02,Adventure,PG,Chris Sanders,211506702.0
-Metro,17-Jan-97,Action,R,Thomas Carter,58804106.0
-National Treasure,19-Nov-04,Adventure,PG,Jon Turteltaub,234069353.0
-Shanghai Noon,26-May-00,Western,PG-13,Tom Dey,89042541.0
-Dangerous Minds,11-Aug-95,Drama,R,John N. Smith,164552293.0
-The Distinguished Gentleman,4-Dec-92,Comedy,R,Jonathan Lynn,94349900.0
-The Secret World of Arietty,17-Feb-12,Adventure,G,,20325733.0
-The Princess Diaries,3-Aug-01,Comedy,G,Garry Marshall,161218928.0
-Step Up 3D,6-Aug-10,Drama,PG-13,Jon M. Chu,45302137.0
-Underdog,3-Aug-07,Adventure,PG,Jon Erwin,53619462.0
-Red Rock West,28-Jan-94,Crime,R,John Dahl,5170709.0
-Captain America: Civil War,6-May-16,Action,PG-13,Anthony Russo,408084349.0
-Mr. Wrong,16-Feb-96,Romantic Comedy,PG-13,Nick Castle,24422334.0
-Nixon,20-Dec-95,Drama,R,Ron Howard,26302005.0
-The Ref,9-Mar-94,Comedy,R,Ted Demme,23401275.0
-The Santa Clause 3: The Escape Clause,3-Nov-06,Comedy,G,Michael Lembeck,108694869.0
-Ice Princess,18-Mar-05,Comedy,G,Tim Fywell,32064685.0
-King Arthur,7-Jul-04,Adventure,PG-13,Antoine Fuqua,70423706.0
-Nothing To Lose,18-Jul-97,Comedy,R,Steve Oedekerk,81692095.0
-Herbie: Fully Loaded,22-Jun-05,Comedy,G,Angela Robinson,86812798.0
-Father of the Bride,20-Dec-91,Comedy,PG,Charles Shyer,179821881.0
-You Again,24-Sep-10,Comedy,PG,Andy Fickman,27461121.0
-Treasure Planet,27-Nov-02,Adventure,PG,Ron Clements,55189145.0
-The Great Mouse Detective,2-Jul-86,Adventure,G,Ron Clements,53637367.0
-Cinderella,13-Mar-15,Drama,PG,Wilfred Jackson,201151353.0
-Cinderella,15-Feb-50,Drama,G,Wilfred Jackson,920608730.0
-Frozen,22-Nov-13,Adventure,PG,Chris Buck,414997174.0
-Pirates of the Caribbean: On Stranger…,20-May-11,Adventure,PG-13,Rob Marshall,256263359.0
-Zokkomon,22-Apr-11,Adventure,PG,Satyajit Bhatkal,2984.0
-Gross Anatomy,20-Oct-89,Drama,PG-13,Thom Eberhardt,23972012.0
-The Incredibles,5-Nov-04,Adventure,PG,Brad Bird,354488708.0
-Taking Care of Business,17-Aug-90,Comedy,R,Arthur Hiller,39963460.0
-Tim Burton's The Nightmare Before Chr…,20-Oct-06,Musical,PG,,30737517.0
-Cocktail,29-Jul-88,Drama,R,Roger Donaldson,160442289.0
-Gun Shy,4-Feb-00,Comedy,R,Eric Blakeney,2562155.0
-Mr. Destiny,12-Oct-90,Comedy,PG-13,James Orr,30722056.0
-Herbie Goes to Monte Carlo,24-Jun-77,Romance,G,Vincent McEveety,105847527.0
-Evita,25-Dec-96,Musical,PG,Alan Parker,92077628.0
-Dark Water,8-Jul-05,Thriller/Suspense,PG-13,Walter Salles,33500491.0
-Piglet's Big Movie,21-Mar-03,Comedy,G,Francis Glebas,32298812.0
-Kazaam,17-Jul-96,Comedy,PG,Paul Michael Glaser,36009655.0
-Déjà Vu,22-Nov-06,Thriller/Suspense,PG-13,Tony Scott,82267038.0
-Waking Sleeping Beauty,26-Mar-10,Documentary,PG,Don Hahn,86264.0
-The Count of Monte Cristo,25-Jan-02,Drama,PG-13,Kevin Reynolds,78682079.0
-The Program,24-Sep-93,Action,R,Stephen Frears,46919256.0
-When in Rome,29-Jan-10,Romantic Comedy,PG-13,Mark Steven Johnson,34917330.0
-Born Yesterday,26-Mar-93,Romantic Comedy,PG,George Cukor,36165012.0
-The Alamo,9-Apr-04,Western,PG-13,John Lee Hancock,30416359.0
-Mad Love,26-May-95,Drama,PG-13,Antonia Bird,29934306.0
-Armageddon,1-Jul-98,Adventure,PG-13,Michael Bay,362324957.0
-Air Bud,1-Aug-97,Comedy,PG,Charles Martin Smith,45266588.0
-Fire Birds,24-May-90,Action,PG-13,David Green,29485923.0
-The Black Cauldron,24-Jul-85,Adventure,PG,Ted Berman,50553142.0
-Oz the Great and Powerful,8-Mar-13,Adventure,PG,Sam Raimi,243434130.0
-Two Much,15-Mar-96,Romantic Comedy,PG-13,Fernando Trueba,2057055.0
-102 Dalmatians,22-Nov-00,Comedy,G,Kevin Lima,104055039.0
-The Pacifier,4-Mar-05,Comedy,PG,Adam Shankman,148619029.0
-Prom,29-Apr-11,Comedy,PG,Paul Lynch,10768946.0
-Un indien dans la ville,22-Mar-96,Comedy,PG,Hervé Palud,1963937.0
-Annapolis,27-Jan-06,Drama,PG-13,Justin Lin,22044113.0
-The Country Bears,26-Jul-02,Adventure,G,Peter Hastings,24650121.0
-Planes: Fire and Rescue,18-Jul-14,Adventure,PG,Roberts Gannaway,61040349.0
-Tin Men,6-Mar-87,Comedy,,Barry Levinson,54787202.0
-Renaissance Man,3-Jun-94,Comedy,PG-13,Penny Marshall,49945474.0
-Playing God,17-Oct-97,Thriller/Suspense,R,Andy Wilson,7652965.0
-Phenomenon,5-Jul-96,Drama,PG,Jon Turteltaub,199559799.0
-Gnomeo and Juliet,11-Feb-11,Comedy,G,Kelly Asbury,106270797.0
-The Color of Money,17-Oct-86,Drama,R,Martin Scorsese,117957323.0
-Blackbeard's Ghost,8-Feb-68,Comedy,G,Robert Stevenson,138612686.0
-Ernest Scared Stupid,11-Oct-91,Comedy,PG,John R. Cherry III,28320147.0
-The Emperor's New Groove,15-Dec-00,Adventure,G,Mark Dindal,136789252.0
-Double Take,12-Jan-01,Action,PG-13,George Gallo,44418589.0
-Rocket Man,10-Oct-97,Comedy,PG,Oscar Rudolph,28371890.0
-Mulan,19-Jun-98,Adventure,G,Barry Cook,216807832.0
-Song of the South,12-Nov-46,Adventure,G,Wilfred Jackson,1078510579.0
-The Black Hole,21-Dec-79,Adventure,PG,Gary Nelson,120377374.0
-Raising Helen,28-May-04,Comedy,PG-13,Garry Marshall,50886144.0
-A Gun in Betty Lou's Handbag,21-Aug-92,Comedy,PG-13,Allan Moyle,7295423.0
-The Air Up There,7-Jan-94,Comedy,PG,Paul Michael Glaser,42940186.0
-Roommates,3-Mar-95,Comedy,PG,Peter Yates,23404369.0
-Morning Light,17-Oct-08,Documentary,PG,Mark Monroe,322979.0
-Valiant,19-Aug-05,Adventure,G,Gary Chapman,25616292.0
-Down and Out in Beverly Hills,31-Jan-86,Comedy,R,Paul Mazursky,141183693.0
-Tarzan,16-Jun-99,Adventure,G,Chris Buck,283900254.0
-The Royal Tenenbaums,14-Dec-01,Black Comedy,R,Wes Anderson,76758193.0
-James and the Giant Peach,12-Apr-96,Adventure,PG,Henry Selick,55159783.0
-"Mystery, Alaska",1-Oct-99,Comedy,R,Jay Roach,14755189.0
-Last Dance,3-May-96,Drama,R,Thomas Carter,11171714.0
-My Science Project,9-Aug-85,Comedy,PG,Jonathan R. Betuel,9736051.0
-Homeward Bound II: Lost in San Franc…,8-Mar-96,Adventure,G,,62384706.0
-The Muppets,23-Nov-11,Comedy,PG,James Bobin,94189503.0
-Turner & Hooch,28-Jul-89,Comedy,PG,Roger Spottiswoode,150176361.0
-Oceans,22-Apr-10,Documentary,G,Gary Ross,20751600.0
-It's Pat,26-Aug-94,Comedy,,Adam Bernstein,125666.0
-The Finest Hours,29-Jan-16,Thriller/Suspense,PG,Craig Gillespie,27569558.0
-Shoot to Kill,12-Feb-88,Action,R,Roger Spottiswoode,60097074.0
-Hannah Montana the Movie,10-Apr-09,Drama,G,Peter Chelsom,89443640.0
-First Kid,30-Aug-96,Comedy,PG,David M. Evans,50465108.0
-Consenting Adults,16-Oct-92,Drama,R,Alan J. Pakula,43859823.0
-Dan in Real Life,20-Oct-07,Romantic Comedy,PG-13,Peter Hedges,58350234.0
-Sorority Boys,22-Mar-02,Comedy,R,Wallace Wolodarsky,14797862.0
-Simon Birch,11-Sep-98,Drama,PG,Mark Steven Johnson,32809442.0
-In the Army Now,12-Aug-94,Comedy,PG,Daniel Petrie Jr.,59673787.0
-Wreck-It Ralph,2-Nov-12,Adventure,PG,Rich Moore,200354959.0
-Iron Man 3,3-May-13,Action,PG-13,Shane Black,424084233.0
-One Magic Christmas,22-Nov-85,Drama,G,Phillip Borsos,31415432.0
-Beverly Hills Chihuahua,3-Oct-08,Comedy,PG,Raja Gosnell,110932022.0
-WALL-E,27-Jun-08,Adventure,G,Andrew Stanton,262771918.0
-Aladdin,11-Nov-92,Comedy,G,Ron Clements,441969178.0
-Casanova,25-Dec-05,Drama,R,Lasse Hallström,14574087.0
-Thor: The Dark World,8-Nov-13,Adventure,PG-13,Alan Taylor,213962184.0
-Monkey Kingdom,17-Apr-15,Documentary,G,Alastair Fothergill,16432322.0
-Ernest Saves Christmas,11-Nov-88,Comedy,PG,John R. Cherry III,57845202.0
-Hannah Montana/Miley Cyrus: Best of B…,1-Feb-08,Concert/Performance,G,,76646993.0
-Saving Mr. Banks,13-Dec-13,Drama,PG-13,John Lee Hancock,86249969.0
-The Aristocats,24-Apr-70,Musical,G,Wolfgang Reitherman,255161499.0
-Calendar Girls,19-Dec-03,Comedy,PG-13,Nigel Cole,42379650.0
-Unstrung Heroes,15-Sep-95,Drama,PG,Diane Keaton,15365850.0
-Three Fugitives,27-Jan-89,Comedy,PG-13,Francis Veber,85757817.0
-Tomorrowland,22-May-15,Adventure,PG,Brad Bird,93436322.0
-The Village,30-Jul-04,Thriller/Suspense,PG-13,M. Night Shyamalan,155021748.0
-"Alexander and the Terrible, Horrible,…",10-Oct-14,Comedy,PG,Miguel Arteta,69055550.0
-Arachnophobia,18-Jul-90,Thriller/Suspense,PG-13,Frank Marshall,106290270.0
-Lincoln,9-Nov-12,Drama,PG-13,Timur Bekmambetov,192122330.0
-The Horse Whisperer,15-May-98,Drama,PG-13,Robert Redford,135497531.0
-Muppets Most Wanted,21-Mar-14,Comedy,PG,James Bobin,52807594.0
-Fantasia 2000 (IMAX),1-Jan-00,Musical,G,,94852354.0
-Spaced Invaders,27-Apr-90,Comedy,PG,Patrick Read Johnson,29964452.0
-Just Visiting,6-Apr-01,Comedy,PG-13,Jean-Marie Poiré,7114869.0
-Holes,18-Apr-03,Drama,PG,Andrew Davis,94203395.0
-The Last Shot,24-Sep-04,Comedy,R,Jeff Nathanson,629502.0
-Meet the Robinsons,30-Mar-07,Adventure,G,Stephen J. Anderson,119860589.0
-Dead Poets Society,2-Jun-89,Drama,PG,Peter Weir,202531517.0
-Avengers: Age of Ultron,1-May-15,Action,PG-13,Joss Whedon,459005868.0
-Man of the House,3-Mar-95,Comedy,PG,Stephen Herek,77573459.0
-Bears,18-Apr-14,Documentary,G,Daniel Chong,18346024.0
-Passed Away,24-Apr-92,Comedy,PG-13,Charlie Peters,8187848.0
-ESPN's Ultimate X - The Movie,10-May-02,Documentary,PG,,6089874.0
-Atlantis: The Lost Empire,8-Jun-01,Adventure,PG,Gary Trousdale,125188122.0
-Ernest Goes to Camp,22-May-87,Comedy,PG,John R. Cherry III,50686462.0
-Teacher's Pet: The Movie,16-Jan-04,Comedy,PG,,8812764.0
-Spy Hard,24-May-96,Comedy,PG-13,Rick Friedberg,51373912.0
-Snow Dogs,18-Jan-02,Comedy,PG,Brian Levant,117745317.0
-Frankenweenie,5-Oct-12,Comedy,PG,Tim Burton,37363513.0
-Tuck Everlasting,11-Oct-02,Drama,PG,Jay Russell,27789959.0
-Hauru no ugoku shiro,10-Jun-05,Adventure,PG,Hayao Miyazaki,6194870.0
-Gedo Senki (Tales from Earthsea),13-Aug-10,Adventure,PG-13,,51988.0
-Return to Oz,21-Jun-85,Adventure,PG,Walter Murch,25215934.0
-Disney's A Christmas Carol,6-Nov-09,Drama,PG,Robert Zemeckis,154927105.0
-Prefontaine,24-Jan-97,Drama,PG-13,Steve James,1085093.0
-Beaches,21-Dec-88,Drama,PG-13,Garry Marshall,120381757.0
-101 Dalmatians,25-Jan-61,Comedy,G,Stephen Herek,1362870985.0
-The Last Song,31-Mar-10,Drama,PG,Julie Anne Robinson,67258772.0
-Father Hood,27-Aug-93,Action,PG-13,Darrell James Roodt,6654819.0
-Encino Man,22-May-92,Comedy,PG,Les Mayfield,81369058.0
-Sweet Home Alabama,27-Sep-02,Comedy,PG-13,Andy Tennant,184521151.0
-Play it to the Bone,24-Dec-99,Comedy,R,Ron Shelton,13180524.0
-The Odd Life of Timothy Green,15-Aug-12,Drama,PG,Peter Hedges,54914942.0
-Honey I Blew Up the Kid,17-Jul-92,Comedy,PG,Randal Kleiser,119162518.0
-Hercules,13-Jun-97,Adventure,G,Ron Clements,182029412.0
-Dumbo,31-Oct-41,Animation,G,Ben Sharpsteen,1600000.0
-Bambi,14-Aug-42,Animation,G,David Hand,267447150.0
-Saludos Amigos,24-Aug-42,Animation,NR,Jack Kinney,1135000.0
-Peter Pan,05-Feb-53,Animation,G,Hamilton Luske,87404651.0
-Robin Hood,12-May-10,Adventure,PG-13,Wolfgang Reitherman,321669741.0
-Fantasia 2000,17-Dec-99,Animation,G,full credits,60655420.0
-DuckTales,03-Aug-90,Adventure,G,Bob Hathcock,18115724.0
-Who Framed Roger Rabbit,21-Jun-88,Fantasy,PG,Robert Zemeckis,329803958.0
-One Hundred and One Dalmatians,25-Jan-61,Adventure,G,Hamilton Luske,85000000.0
-Return to Never Land,14-Feb-02,Adventure,G,Robin Budd,109862682.0
-Pete's Dragon,10-Aug-16,Adventure,PG,David Lowery,143695338.0
-Mulan 2,18-Jun-98,Animation,G,Tony Bancroft,304320254.0
-The Pirate Fairy,13-Feb-14,Animation,G,Peggy Holmes,20300000.0
+release_date,rate_ordinal,Action,Adventure,Animation,Black Comedy,Comedy,Crime,Documentary,Drama,Fantasy,Horror,Musical,Romance,Romantic Comedy,Thriller/Suspense,Western,day,month,weekend,Summer,Spring,Autumn,Winter,new_movie,Jon Turteltaub,Garry Marshall,Ron Clements,Wolfgang Reitherman,John Lasseter,John R. Cherry III,Stephen Herek,Lasse Hallström,Spike Lee,Adam Shankman,James Bobin,Michael Bay,Alastair Fothergill,Andrew Stanton,Robert Zemeckis,Andy Fickman,M. Night Shyamalan,Ridley Scott,Wilfred Jackson,Joel Schumacher,Frank Marshall,Robert Stevenson,Sam Weisman,Kevin Lima,Ron Howard,Brad Bird,Wes Anderson,Gary Trousdale,Hamilton Luske,Gore Verbinski,revenue
+2001,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,16,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54656124.0
+1994,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,25,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,94226333.0
+2004,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,2,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67910166.0
+2003,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,25,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9254344.0
+1993,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,9,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79618610.0
+1955,4,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,22,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1236035515.0
+2001,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,12,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35705805.0
+1998,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,6,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,288691833.0
+2014,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,268013076.0
+2006,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,7,7,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,544817142.0
+2004,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,101161045.0
+2000,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,4,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,95070168.0
+1997,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,28,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27117599.0
+1990,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,207231621.0
+1993,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,10,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,116965668.0
+1992,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,6,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5872667.0
+1996,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,21,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,190988799.0
+1990,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,6,4,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49999822.0
+2015,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,7,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,180202163.0
+2006,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,10,3,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,78667428.0
+2004,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,10,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,32198655.0
+2007,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,16,2,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100760721.0
+1991,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,13,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,363017667.0
+1995,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,27,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9857435.0
+1998,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,20,11,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,288981698.0
+1990,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,21,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,143108869.0
+1994,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,21,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17727017.0
+2002,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,330754439.0
+1995,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,4,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46741467.0
+2015,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,20,2,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44480275.0
+1997,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,16,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,193326632.0
+1993,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,16,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9156084.0
+2012,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,5,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,660081224.0
+1999,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,31,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63354375.0
+2009,4,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,22,4,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35981010.0
+1987,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,6,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44024529.0
+1994,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,29,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,103354194.0
+2000,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,22,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,148208901.0
+1987,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,25,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,353334607.0
+2009,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,21,8,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1563976.0
+2011,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,24,6,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,203522177.0
+2004,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,11,8,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,129164207.0
+2003,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,14,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66966883.0
+1993,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,22,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15970955.0
+1992,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,20,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4631720.0
+1998,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38766948.0
+2003,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,7,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,185481530.0
+1962,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,17,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,109581646.0
+2016,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,11,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,232532923.0
+1997,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,26,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,170406423.0
+2006,4,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,27,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12948025.0
+1992,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,18,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45741576.0
+1997,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,31,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3957025.0
+1987,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,23,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,254414837.0
+1961,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,14,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,124841160.0
+1989,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,6,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40983414.0
+1999,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32007656.0
+2015,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,25,11,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,123087120.0
+1994,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,15,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,103798152.0
+1986,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,3,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48758184.0
+1983,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,29,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15136765.0
+1991,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,93256673.0
+1987,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,5,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,141592160.0
+2007,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,21,12,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,267003525.0
+1994,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34048315.0
+2006,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,8,12,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64959548.0
+2006,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,25,8,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74398864.0
+2002,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,19,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18325463.0
+1998,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,25,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,87906042.0
+1991,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,27,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57544453.0
+1983,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,7,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70669955.0
+2009,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,24,7,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,134246932.0
+1995,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,13,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,568342.0
+2007,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,30,3,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5637048.0
+1993,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,10,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,140392731.0
+2016,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,27,5,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77042381.0
+1981,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48517980.0
+2008,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,16,5,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,166277038.0
+1999,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,5,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47794214.0
+1994,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,26,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21576332.0
+1996,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,255702705.0
+1990,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,25,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59679131.0
+2011,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,10,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,90848019.0
+1995,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,11,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25981285.0
+1980,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,25,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34472116.0
+2011,4,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,22,4,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16401551.0
+2014,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,25,12,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,130894237.0
+2003,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,30,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,518148559.0
+1988,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,4,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9772655.0
+2014,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,8,8,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55961409.0
+2001,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,295705112.0
+2007,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,24,5,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,379129960.0
+1994,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,19,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40804816.0
+1997,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,25,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53693680.0
+1989,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,18,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16653473.0
+1996,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,9,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111792852.0
+2013,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,21,6,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,278395641.0
+2013,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,18,10,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3374251.0
+1996,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,23,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16482589.0
+2002,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,27,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9909094.0
+1992,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,17,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24950752.0
+2003,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,2,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59743191.0
+1998,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,27,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13608633.0
+2001,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,29,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25214223.0
+1987,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,3,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72853569.0
+2007,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,22,9,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111010758.0
+1984,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,9,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,157057661.0
+1988,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,22,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,316250084.0
+2016,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,9,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12545979.0
+2006,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,9,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70801353.0
+1963,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,25,12,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,153870834.0
+1995,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,29,12,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,157508868.0
+1990,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,16,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55796728.0
+1996,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,13,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,91076877.0
+1992,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,18,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14841352.0
+1983,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,11,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11519089.0
+2004,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,20,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39816568.0
+2004,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,16,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32585356.0
+1989,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,13,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39884640.0
+1995,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,22,11,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,370409631.0
+2010,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28,5,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96971361.0
+1996,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,31,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59828966.0
+1994,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,15,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18083994.0
+1996,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,19509726.0
+2007,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,27,4,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25202168.0
+1993,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,4,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46064723.0
+1995,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,28,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47809421.0
+2003,4,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,11,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23803108.0
+1991,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,22,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19149495.0
+2016,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,7,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55483770.0
+1982,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77184895.0
+1998,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,4,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1409943.0
+2013,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,22,11,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31787136.0
+1989,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22740861.0
+1989,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,14,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15233465.0
+1995,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,22,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45911517.0
+2000,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,14,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57925202.0
+1997,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,11,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51579764.0
+1993,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,23,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29968953.0
+2009,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,25,11,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,116316457.0
+1991,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31167691.0
+1994,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24267154.0
+1993,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,6,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6554384.0
+2006,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,12,5,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5512647.0
+2002,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,5,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10537188.0
+2012,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,29,6,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13165822.0
+2011,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,11,3,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22741603.0
+1994,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,4,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19116981.0
+1999,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,10,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,106921374.0
+2003,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,17,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,2194759.0
+2001,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,5,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25749730.0
+1995,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,13,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20075033.0
+1996,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,4,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43713554.0
+2009,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,29,5,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,329336681.0
+1993,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,15,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,73914543.0
+1987,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,14,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,68181300.0
+2007,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,6,4,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8779196.0
+1940,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,13,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2187090808.0
+1995,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,177102077.0
+1996,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,259807820.0
+1990,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,23,3,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,356389765.0
+1999,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,23,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,161610341.0
+2011,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,15,7,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28375869.0
+2000,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,11,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,71228678.0
+1995,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,17,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34245779.0
+1991,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,17,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,127571325.0
+2003,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,26,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,105775678.0
+2005,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,29,4,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67096891.0
+1971,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,7,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,91305448.0
+2005,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,11,2,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23801835.0
+2003,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,15,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,81547672.0
+1988,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,18,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26062188.0
+1998,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,27,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7829877.0
+2016,4,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,29,4,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7895708.0
+1992,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,29,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,283583472.0
+2015,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,23,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12429583.0
+1994,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,14,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50840394.0
+1995,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,21,4,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,157082900.0
+2008,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,25,12,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,128039679.0
+1999,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,4,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56595842.0
+2006,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,11,8,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84078780.0
+1997,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,22,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,88467531.0
+1991,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,26,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47181395.0
+1998,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,29,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,119185667.0
+2007,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,12,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12985302.0
+2013,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,7,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,92597388.0
+2001,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,416073179.0
+2002,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62480631.0
+1983,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,4,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3223725.0
+2000,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,19,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,215438985.0
+1998,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,11,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,28392518.0
+1977,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,21,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,98067733.0
+1999,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54262148.0
+2012,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,22,6,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,251292441.0
+2006,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,17,2,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,105037235.0
+2009,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,14,8,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16961607.0
+2016,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,23,9,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8874389.0
+1992,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,3,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43068356.0
+1998,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,9,10,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21694605.0
+2010,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,14,7,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67473105.0
+1990,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40077147.0
+1997,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,25,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48546161.0
+1992,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,2,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,103120810.0
+1995,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,24,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15983331.0
+2010,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,24,11,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,214388548.0
+1994,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,30,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12042634.0
+1995,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,3,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14641561.0
+1996,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,13,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16284619.0
+1993,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,42445058.0
+2009,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,19,6,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,184288829.0
+2009,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,13,3,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,75501997.0
+1993,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49080505.0
+1995,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,31,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4770461.0
+2016,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,15,4,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,364001123.0
+1967,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,18,10,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,789612346.0
+2005,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,29,7,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84088854.0
+1999,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,19,11,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,404450426.0
+1977,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,22,6,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,159743914.0
+2000,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,29,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,180742479.0
+2005,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,22,4,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28716947.0
+1992,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58965304.0
+1986,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,30,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,42183197.0
+2004,3,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,2,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,426246.0
+2008,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,8,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19125841.0
+1999,4,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,15,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10111144.0
+2000,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,7,7,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,108993148.0
+2007,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,21,11,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,156074310.0
+2016,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,3,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,341268248.0
+1998,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,13,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21941840.0
+1996,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,20,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65543.0
+2002,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,15,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70269715.0
+2007,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,29,6,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,252955933.0
+2010,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,8,10,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63781920.0
+1992,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,7,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,91304495.0
+1997,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,19,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14561324.0
+2000,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,10,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,95208344.0
+2003,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,24,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,119218333.0
+1937,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,21,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5228953251.0
+2010,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,18,6,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,443408255.0
+2004,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,6,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,87392478.0
+1999,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,12,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,61150849.0
+1987,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32798382.0
+1993,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,12,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26248558.0
+2009,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,25,11,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55503929.0
+2010,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,3,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,357063499.0
+1989,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,15,11,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,223726012.0
+2006,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,28,4,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34634731.0
+1995,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,31,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1025425.0
+2006,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,9,6,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,314140384.0
+1999,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,17,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,94838225.0
+2012,4,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,20,4,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30675725.0
+1975,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,131246872.0
+1999,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,26,2,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46145331.0
+1994,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7035189.0
+1990,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,23,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2210321.0
+2013,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,8,11,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5367415.0
+1986,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,11,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11003932.0
+2005,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,30,9,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20162672.0
+1993,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,12,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,109310377.0
+1998,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,25,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,94139530.0
+2009,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,10,9,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23064.0
+1995,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,27,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59727216.0
+1992,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,9,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,14421454.0
+1993,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,3,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11369541.0
+2006,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,24,3,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29712825.0
+1997,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,14,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33613158.0
+1992,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,11,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55417615.0
+2008,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,14,2,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,68118371.0
+2002,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,201959095.0
+2003,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,31,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73793522.0
+1993,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,10,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2127496.0
+1995,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,20,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,6829092.0
+2002,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,43756218.0
+1994,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,29,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63651027.0
+1961,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,16,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,310094574.0
+1997,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,7,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,110058379.0
+1982,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,19,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20643199.0
+1993,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,4,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25146538.0
+1997,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,30,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36265379.0
+2016,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,16,12,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,529483936.0
+1991,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,5,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24939118.0
+2001,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,24,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7450434.0
+1985,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,22,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33900697.0
+1981,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,10,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,133118889.0
+2001,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,337782.0
+1995,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,8,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11167895.0
+2012,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,9,3,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77372445.0
+1994,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,11,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63170804.0
+2014,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,8,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,343771168.0
+1995,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,7,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,68479579.0
+1993,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,16,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80147079.0
+2016,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,12,8,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,76233151.0
+1982,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,5,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12903059.0
+2002,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,21,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,211506702.0
+1997,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58804106.0
+2004,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,19,11,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,234069353.0
+2000,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,26,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89042541.0
+1995,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,11,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,164552293.0
+1992,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,4,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,94349900.0
+2001,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,3,8,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,161218928.0
+2010,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,6,8,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45302137.0
+2007,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,8,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53619462.0
+1994,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,28,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5170709.0
+2016,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,5,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,408084349.0
+1996,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,16,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24422334.0
+1995,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,20,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,26302005.0
+1994,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,9,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23401275.0
+2006,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,3,11,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,108694869.0
+2005,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,18,3,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32064685.0
+2004,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,7,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70423706.0
+1997,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,18,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,81692095.0
+2005,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,22,6,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86812798.0
+1991,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,20,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,179821881.0
+2010,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,24,9,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27461121.0
+2002,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,27,11,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55189145.0
+1986,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,7,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53637367.0
+2015,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,13,3,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,201151353.0
+1950,4,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,15,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,920608730.0
+2013,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,22,11,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,414997174.0
+2011,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,20,5,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,256263359.0
+2011,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,22,4,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2984.0
+1989,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,20,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23972012.0
+2004,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,354488708.0
+1990,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,17,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39963460.0
+1988,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,29,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,160442289.0
+2000,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,4,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2562155.0
+1990,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,12,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30722056.0
+1977,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,24,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,105847527.0
+1996,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,25,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92077628.0
+2005,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,8,7,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33500491.0
+2003,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,21,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32298812.0
+1996,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,17,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36009655.0
+2006,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,22,11,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,82267038.0
+2010,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,26,3,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86264.0
+2002,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,25,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,78682079.0
+1993,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46919256.0
+2010,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,29,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34917330.0
+1993,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,26,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36165012.0
+2004,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,9,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30416359.0
+1995,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,26,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29934306.0
+1998,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,362324957.0
+1997,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45266588.0
+1990,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29485923.0
+1985,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,24,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50553142.0
+2013,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,8,3,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,243434130.0
+1996,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,15,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2057055.0
+2000,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,22,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,104055039.0
+2005,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,4,3,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,148619029.0
+2011,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,29,4,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10768946.0
+1996,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,22,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1963937.0
+2006,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,27,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22044113.0
+2002,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,26,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24650121.0
+2014,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,18,7,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,61040349.0
+1994,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,3,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49945474.0
+1997,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,17,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7652965.0
+1996,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,5,7,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,199559799.0
+2011,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,11,2,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,106270797.0
+1986,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,17,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,117957323.0
+1968,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,8,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,138612686.0
+1991,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,11,10,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28320147.0
+2000,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,15,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,136789252.0
+2001,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44418589.0
+1997,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,10,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28371890.0
+1998,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,19,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,216807832.0
+1946,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,12,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1078510579.0
+1979,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,21,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120377374.0
+2004,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,28,5,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50886144.0
+1992,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,21,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7295423.0
+1994,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,7,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,42940186.0
+1995,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,3,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23404369.0
+2008,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,17,10,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,322979.0
+2005,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,19,8,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25616292.0
+1986,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,31,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,141183693.0
+1999,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,16,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,283900254.0
+2001,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,14,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,76758193.0
+1996,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,12,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55159783.0
+1999,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14755189.0
+1996,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,3,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11171714.0
+1985,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,9,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9736051.0
+2011,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,23,11,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,94189503.0
+1989,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,28,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,150176361.0
+2010,4,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,22,4,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20751600.0
+2016,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,29,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27569558.0
+1988,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60097074.0
+2009,4,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,10,4,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89443640.0
+1996,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,30,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50465108.0
+1992,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,16,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43859823.0
+2007,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,20,10,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58350234.0
+2002,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,22,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14797862.0
+1998,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,11,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32809442.0
+1994,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,12,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59673787.0
+2012,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,11,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,200354959.0
+2013,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,5,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,424084233.0
+1985,4,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,22,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31415432.0
+2008,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,3,10,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,110932022.0
+2008,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,27,6,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,262771918.0
+1992,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,11,11,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,441969178.0
+2005,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,25,12,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14574087.0
+2013,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,8,11,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,213962184.0
+2015,4,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,17,4,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16432322.0
+1988,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,11,11,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57845202.0
+2013,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,13,12,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86249969.0
+1970,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,24,4,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,255161499.0
+2003,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,19,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,42379650.0
+1995,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,15,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15365850.0
+1989,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,27,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,85757817.0
+2015,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,22,5,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,93436322.0
+2004,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,30,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,155021748.0
+2014,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,10,10,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69055550.0
+1990,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,18,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,106290270.0
+2012,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,9,11,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,192122330.0
+1998,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,15,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,135497531.0
+2014,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,21,3,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52807594.0
+1990,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,27,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29964452.0
+2001,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,6,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7114869.0
+2003,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,18,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,94203395.0
+2004,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,24,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,629502.0
+2007,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,30,3,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,119860589.0
+1989,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,202531517.0
+2015,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,459005868.0
+1995,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,3,3,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77573459.0
+2014,4,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,18,4,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18346024.0
+1992,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,24,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8187848.0
+2001,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,8,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,125188122.0
+1987,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,22,5,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50686462.0
+1996,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,24,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51373912.0
+2002,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,18,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,117745317.0
+2012,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,5,10,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37363513.0
+2002,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,11,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27789959.0
+2005,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,10,6,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6194870.0
+1985,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,21,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25215934.0
+2009,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,6,11,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,154927105.0
+1997,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,24,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1085093.0
+1988,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,21,12,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120381757.0
+1961,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,25,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1362870985.0
+2010,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,31,3,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67258772.0
+1993,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6654819.0
+1992,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,22,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,81369058.0
+2002,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,27,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,184521151.0
+1999,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,24,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13180524.0
+2012,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,15,8,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54914942.0
+1992,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,17,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,119162518.0
+1997,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,13,6,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,182029412.0
+1941,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,31,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1600000.0
+1942,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,14,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,267447150.0
+1942,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,24,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1135000.0
+1953,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,87404651.0
+2010,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,12,5,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,321669741.0
+1999,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,17,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60655420.0
+1990,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18115724.0
+1988,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,21,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,329803958.0
+1961,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,25,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,85000000.0
+2002,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,14,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,109862682.0
+2016,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,10,8,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,143695338.0
+1998,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,18,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,304320254.0
+2014,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,13,2,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20300000.0
