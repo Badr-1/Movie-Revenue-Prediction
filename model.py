@@ -42,7 +42,10 @@ def get_rating(movie_id):
 def get_release_date(movie_id):
     response = requests.get('https://api.themoviedb.org/3/movie/{0}?api_key={1}'.format(movie_id, API_KEY))
     if (response.status_code == 200):
-        return response.json()['release_date']
+        date = response.json()['release_date']
+        formatted_date = datetime.datetime.strptime(date, '%Y-%m-%d').strftime('%d-%B-%y')
+        return formatted_date
+    return
 
 
 def get_movie(movie_name):
