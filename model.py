@@ -12,6 +12,38 @@ API_KEY = "95a1eb7e26b4cc39736c3f8dd4d719b0"
 
 
 # data = pd.read_csv('merged_w_directors.csv')
+def get_genre(movie_id):
+    response = requests.get('https://api.themoviedb.org/3/movie/{0}?api_key={1}'.format(movie_id, API_KEY))
+    if (response.status_code == 200):
+        return response.json()['genres'][0]['name']
+    return
+
+
+def get_revenue(movie_id):
+    response = requests.get('https://api.themoviedb.org/3/movie/{0}?api_key={1}'.format(movie_id, API_KEY))
+    if (response.status_code == 200):
+        return response.json()['revenue']
+    return
+
+
+def get_rating(movie_id):
+    response = requests.get(
+        'https://api.themoviedb.org/3/movie/{0}?api_key={1}&language=en-US&append_to_response=release_dates'.format(
+            movie_id, API_KEY))
+    if (response.status_code == 200):
+        for release in response.json()['release_dates']['results']:
+            if (release['iso_3166_1'] == 'US'):
+                for date in release['release_dates']:
+                    if (date['certification'] != ''):
+                        return date['certification']
+    return
+
+
+def get_release_date(movie_id):
+    response = requests.get('https://api.themoviedb.org/3/movie/{0}?api_key={1}'.format(movie_id, API_KEY))
+    if (response.status_code == 200):
+        return response.json()['release_date']
+
 
 def get_movie(movie_name):
     movie_name = movie_name.translate(str.maketrans('', '', string.punctuation)).replace(' ', '+')
@@ -41,6 +73,38 @@ def fill_directors():
         movie_id = get_movie(data['movie_title'].iloc[index])
         director = get_director(movie_id)
         data['director'].iloc[index] = director
+
+
+def fill_genre():
+    x = data.loc[data['genre'].isna()]
+    for index in x.index:
+        movie_id = get_movie(data['movie_title'].iloc[index])
+        genre = get_genre(movie_id)
+        data['genre'].iloc[index] = genre
+
+
+def fill_rating():
+    x = data.loc[data['MPAA_rating'].isna()]
+    for index in x.index:
+        movie_id = get_movie(data['movie_title'].iloc[index])
+        rating = get_rating(movie_id)
+        data['MPAA_rating'].iloc[index] = rating
+
+
+def fill_release_date():
+    x = data.loc[data['release_date'].isna()]
+    for index in x.index:
+        movie_id = get_movie(data['movie_title'].iloc[index])
+        release_date = get_release_date(movie_id)
+        data['release_date'].iloc[index] = release_date
+
+
+def fill_revenue():
+    x = data.loc[data['revenue'].isna()]
+    for index in x.index:
+        movie_id = get_movie(data['movie_title'].iloc[index])
+        revenue = get_revenue(movie_id)
+        data['revenue'].iloc[index] = revenue
 
 
 # Label encoding for MPAA_rate
@@ -154,11 +218,11 @@ def preprocessing():
     data["revenue"] = data["revenue"].str.replace('$', '', regex=False)
     data["revenue"] = data["revenue"].str.replace(',', '', regex=False)
     data["revenue"] = data["revenue"].astype(float)
-    data['revenue'].fillna(value=0, inplace=True)
+    # data['revenue'].fillna(value=0, inplace=True)
 
-    print((data["revenue"] % 1 == 0).all())
+    # print((data["revenue"] % 1 == 0).all())
     # todo try with and without
-    data.loc[data['revenue'] == 0, 'revenue'] = data['revenue'].mean()
+    # data.loc[data['revenue'] == 0, 'revenue'] = data['revenue'].mean()
     # TODO waiting for dates
     # format_date()
 
@@ -169,8 +233,19 @@ def preprocessing():
 
 # ==============================================================
 
+data = pd.read_csv("merged_full_data.csv")
+# data = merge_data()
+# preprocessing()
+# fill_revenue()
+# fill_release_date()
+# fill_genre()
+# fill_rating()
+# fill_directors()
 
-data = merge_data()
-preprocessing()
+# TODO find missing values in revenue
 
-data.to_csv('formatted.csv', index=False)
+# TODO encoding [genre,rating,director,voice-actors]
+
+# TODO feature selection (drop characters or other more)
+
+# TODO build two models

@@ -39,7 +39,7 @@ def main():
     # print(merged_data.groupby("genre")['revenue'].mean())
 
     # export new merged data as csv
-    merged_data.to_csv("merged.csv", index=False,na_rep="NA",)
+    merged_data.to_csv("merged_full_data.csv", index=False,na_rep="NA",)
     # export new merged data as aligned text
     with open("merged.txt", "w") as f:
         f.write(merged_data.__repr__())
