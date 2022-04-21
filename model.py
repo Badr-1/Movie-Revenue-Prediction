@@ -4,6 +4,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import OrdinalEncoder
 from sklearn.preprocessing import OneHotEncoder
+import seaborn as sns
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import PolynomialFeatures
@@ -135,6 +136,21 @@ def rating_label_encoding():
     data.drop(['MPAA_rating'], axis=1, inplace=True)
 
 
+def movie_title_label_encoding():
+    lbl_encode = LabelEncoder()
+    data['movie_title'] = lbl_encode.fit_transform(data['movie_title'])
+
+
+def character_label_encoding():
+    lbl_encode = LabelEncoder()
+    data['character'] = lbl_encode.fit_transform(data['character'])
+
+
+def voice_actors_label_encoding():
+    lbl_encode = LabelEncoder()
+    data['voice-actor'] = lbl_encode.fit_transform(data['voice-actor'])
+
+
 # Ordinal encoder
 def rating_ordinal_encoding():
     ord_encode = OrdinalEncoder()
@@ -201,6 +217,7 @@ def calculate_genre_weights():
     weights = data['genre'].value_counts()
     for x in genres.index:
         weights[x] = (data['revenue'].loc[data['genre'] == x].sum()) / genres[x]
+
 
 def release_date_feature_extraction():
     data = pd.read_csv('merged_full_datavTest.csv')
@@ -298,7 +315,7 @@ def preprocessing():
 
 
 # ==============================================================
-#TODO
+# TODO
 # data = merge_data()
 # fill_revenue()
 # fill_release_date()
@@ -312,32 +329,59 @@ def preprocessing():
 global data
 data = pd.read_csv("merged_full_data.csv")
 
-data.drop(['character', 'voice-actor', 'movie_title'], axis=1, inplace=True)
 data.drop_duplicates(inplace=True)
 data.dropna(inplace=True, subset=['revenue', 'director', 'MPAA_rating'])
-
 data = data[data.revenue != 0]
 # ENCODING
 
-# rating_label_encoding()
+# rating
+rating_label_encoding()
 # rating_one_hot_encoding()
-rating_ordinal_encoding()
+# rating_ordinal_encoding()
 
+# genre
 calculate_genre_weights()
 genre_ordinal_encoding()
 # genre_label_encoding()
 # genre_one_hot_encoding()
 
+# release date
 data.to_csv('merged_full_datavTest.csv', index=False)
 data = release_date_feature_extraction()
 
+# director
 # directors_modified_one_hot_encoding()
 director_target_encoding()
+
+# movie title
+movie_title_label_encoding()
+
+# voice actors
+voice_actors_label_encoding()
+
+# characters
+character_label_encoding()
+
+
+# reorder data
 data = data[[col for col in data.columns if col != "revenue"] + ["revenue"]]
+# correlation
+
+# Feature Selection
+# Get the correlation between the features
+corr = data.corr()
+# Top 19% Correlation training features with the Value
+top_feature = corr.index[abs(corr['revenue']) > 0.19]
+# Correlation plot
+plt.subplots(figsize=(12, 8))
+top_corr = data[top_feature].corr()
+sns.heatmap(top_corr, annot=True)
+# plt.show()
+
 
 # dividing data
 y = data['revenue']
-x = data.iloc[:, 0:-2]
+x = data[top_feature]
 
 # SCALING
 scaler = MinMaxScaler()
@@ -350,10 +394,18 @@ x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=.20, shuffle
 ridg = linear_model.Ridge()
 ridg.fit(x_train, y_train)
 
+print("")
 prediction_ridge_train = ridg.predict(x_train)
 print('MSE ridge {Train}', metrics.mean_squared_error(np.asarray(y_train), prediction_ridge_train))
 prediction_ridge = ridg.predict(x_test)
 print('MSE ridge {Test}', metrics.mean_squared_error(np.asarray(y_test), prediction_ridge))
+print("")
+
+true_film_value = np.asarray(y_test)[0]
+predicted_film_value = prediction_ridge[0]
+print('True value for the first film in the test set is : ' + str(true_film_value))
+print('Predicted value for the first film in the test set is : ' + str(predicted_film_value))
+
 
 # Poly Model
 poly_features = PolynomialFeatures(degree=3)
@@ -363,7 +415,14 @@ x_test_poly = poly_features.fit_transform(x_test)
 poly_model = linear_model.LinearRegression()
 poly_model.fit(x_train_poly, y_train)
 
+print("")
 prediction_ploy_train = poly_model.predict(x_train_poly)
 print('MSE Poly {TRAIN}', metrics.mean_squared_error(y_train, prediction_ploy_train))
 prediction_ploy_test = poly_model.predict(x_test_poly)
 print('MSE Poly {TEST}', metrics.mean_squared_error(y_test, prediction_ploy_test))
+print("")
+
+true_film_value = np.asarray(y_test)[0]
+predicted_film_value = prediction_ploy_test[0]
+print('True value for the first film in the test set is : ' + str(true_film_value))
+print('Predicted value for the first film in the test set is : ' + str(predicted_film_value))
