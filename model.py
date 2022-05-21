@@ -1,20 +1,21 @@
 import datetime
 
+import requests
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import OrdinalEncoder
 from sklearn.preprocessing import OneHotEncoder
-import seaborn as sns
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn import linear_model
 from sklearn import metrics
 import matplotlib.pyplot as plt
+import seaborn as sns
 import numpy as np
-import requests
 import string
-
+import pickle
+import csv
 # ============================================================
 API_KEY = "95a1eb7e26b4cc39736c3f8dd4d719b0"
 
@@ -150,7 +151,6 @@ def voice_actors_label_encoding():
     lbl_encode = LabelEncoder()
     data['voice-actor'] = lbl_encode.fit_transform(data['voice-actor'])
 
-
 # Ordinal encoder
 def rating_ordinal_encoding():
     ord_encode = OrdinalEncoder()
@@ -172,7 +172,6 @@ def rating_ordinal_encoding():
     plt.xlabel('Rate (lbl encode)', fontsize=12)
     plt.ylabel('revenue', fontsize=12)
     # plt.show()
-
 
 # One-Hot encoder
 def rating_one_hot_encoding():
@@ -218,25 +217,26 @@ def calculate_genre_weights():
     for x in genres.index:
         weights[x] = (data['revenue'].loc[data['genre'] == x].sum()) / genres[x]
 
-
+#######################################
 def release_date_feature_extraction():
-    data = pd.read_csv('merged_full_datavTest.csv')
     data['day'] = pd.DatetimeIndex(data['release_date']).day
     data['month'] = pd.DatetimeIndex(data['release_date']).month
-    data['weekend'] = 0
-    data['Summer'] = 0
-    data['Spring'] = 0
-    data['Autumn'] = 0
-    data['Winter'] = 0
+    # data['weekend'] = 0
+    # data['Summer'] = 0
+    # data['Spring'] = 0
+    # data['Autumn'] = 0
+    # data['Winter'] = 0
     data['new_movie'] = 0
     data['release_date'] = data['release_date'].str[-2:].astype(int)
-    # data['revenue'] = data['revenue'].str[1:].replace(',', '', regex=True).astype('int64')
     # Getting the year in which the film was released
+
     for i in range(len(data)):
-        if data['release_date'].loc[i] > 23 and data['release_date'].loc[i] <= 99:
-            data.at[i, 'release_date'] = 1900 + data.at[i, 'release_date']
+        x = data['release_date'].iloc[i]
+        if x > 23 and x <= 99:
+            data.iloc[i, data.columns.get_loc('release_date')] += 1900
         else:
-            data.at[i, 'release_date'] = 2000 + data.at[i, 'release_date']
+            data.iloc[i, data.columns.get_loc('release_date')] += 2000
+
     # Getting the season of the year
     # for i in range(len(data)):
     #     if data.at[i, 'month'] in [3, 4, 5]:
@@ -249,22 +249,26 @@ def release_date_feature_extraction():
     #         data.at[i, 'Winter'] = 1
     # column for new movies (from 2005)
     for i in range(len(data)):
-        if data.at[i, 'release_date'] >= 2005:
-            data.at[i, 'new_movie'] = 1
+        if data['release_date'].iloc[i] >= 2005:
+            data.iloc[i, data.columns.get_loc('new_movie')] =1
 
-    # Checking if the released date was a weekend or not
-    for i in range(len(data)):
-        data.at[i, 'weekend'] = pd.Timestamp(data.at[i, 'release_date'], data.at[i, 'month'], data.at[i, 'day'])
-        if data.at[i, 'weekend'].weekday() >= 5:
-            data.at[i, 'weekend'] = 1
-        else:
-            data.at[i, 'weekend'] = 0
 
+    # # Checking if the released date was a weekend or not
+    # for i in range(len(data)):
+    #     data.iloc[i, data.columns.get_loc('weekend')] = \
+    #         pd.Timestamp(data.iloc[i, data.columns.get_loc('release_date')], \
+    #             data.iloc[i, data.columns.get_loc('month')], \
+    #                 data.iloc[i, data.columns.get_loc('day')])
+        
+    #     if data['weekend'].iloc[i].weekday() >=5:
+    #         data['weekend'].iloc[i] = 1
+    #     else:
+    #         data.iloc[i, data.columns.get_loc('weekend')] = 0
+        
     # data['release_date'] = data['release_date'] * 100 + data['month']
     # print(data[['Spring', 'Summer', 'Autumn', 'Winter', 'release_date', 'weekend']])
-    return data
-
-
+######################################
+# merges 3 csv files, returns Dataframe with last column = Y
 def merge_data():
     act_data = pd.read_csv("movie-voice-actors.csv")
     dir_data = pd.read_csv("movie-director.csv")
@@ -292,27 +296,17 @@ def directors_modified_one_hot_encoding():
 
     data.drop(['director'], axis=1, inplace=True)
 
-
+# unused
 def director_target_encoding():
     data['director'] = data.groupby('director')["revenue"].transform("mean")
 
 
-def preprocessing():
+def cleaning():
+    global data
     # removing $ and ,
     data["revenue"] = data["revenue"].str.replace('$', '', regex=False)
     data["revenue"] = data["revenue"].str.replace(',', '', regex=False)
     data["revenue"] = data["revenue"].astype(float)
-    # data['revenue'].fillna(value=0, inplace=True)
-
-    # print((data["revenue"] % 1 == 0).all())
-    # todo try with and without
-    # data.loc[data['revenue'] == 0, 'revenue'] = data['revenue'].mean()
-    # TODO waiting for dates
-    # format_date()
-
-    # encoding
-    # feature selection
-
 
 # ==============================================================
 # TODO
@@ -322,17 +316,16 @@ def preprocessing():
 # fill_genre()
 # fill_rating()
 # fill_directors()
-# preprocessing()
+# cleaning()
 # data.to_csv('merged_full_data.csv',index = False)
 
-
-global data
 data = pd.read_csv("merged_full_data.csv")
 
 data.drop_duplicates(inplace=True)
 data.dropna(inplace=True, subset=['revenue', 'director', 'MPAA_rating'])
 data = data[data.revenue != 0]
-# ENCODING
+
+############### ENCODING ###############
 
 # rating
 rating_label_encoding()
@@ -346,12 +339,12 @@ genre_ordinal_encoding()
 # genre_one_hot_encoding()
 
 # release date
-data.to_csv('merged_full_datavTest.csv', index=False)
-data = release_date_feature_extraction()
+release_date_feature_extraction()
+# release_date_feature_extraction()
 
 # director
-# directors_modified_one_hot_encoding()
-director_target_encoding()
+directors_modified_one_hot_encoding()
+# director_target_encoding()
 
 # movie title
 movie_title_label_encoding()
@@ -382,7 +375,12 @@ sns.heatmap(top_corr, annot=True)
 # dividing data
 y = data['revenue']
 x = data[top_feature]
+with open ("features.csv","w") as f:
+    l = [x for x in top_feature]
+    l.remove("revenue")
+    csv.writer(f).writerow(l)
 
+#####################################
 # SCALING
 scaler = MinMaxScaler()
 x = scaler.fit_transform(x)
@@ -390,23 +388,30 @@ x = scaler.fit_transform(x)
 # splitting data to train and test
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=.20, shuffle=True, random_state=45)
 
+######################################################
 # RIDGE MODEL
 ridg = linear_model.Ridge()
 ridg.fit(x_train, y_train)
-
+# train errors
 print("")
 prediction_ridge_train = ridg.predict(x_train)
-print('MSE ridge {Train}', metrics.mean_squared_error(np.asarray(y_train), prediction_ridge_train))
-prediction_ridge = ridg.predict(x_test)
-print('MSE ridge {Test}', metrics.mean_squared_error(np.asarray(y_test), prediction_ridge))
-print("")
+print('MSE ridge {Train}', f"{metrics.mean_squared_error(np.asarray(y_train), prediction_ridge_train):,}")
+print('MSE Linear R2 {Train}: ', metrics.r2_score(y_train, prediction_ridge_train))
+# test errors
+prediction_ridge_test = ridg.predict(x_test)
+print('MSE ridge {Test}', f"{metrics.mean_squared_error(np.asarray(y_test), prediction_ridge_test):,}")
+print('MSE Linear R2 {Test}: ', metrics.r2_score(y_test, prediction_ridge_test))
+filename = 'linearRidgModel.sav'
+pickle.dump(ridg, open(filename, 'wb'))
 
+print("")
 true_film_value = np.asarray(y_test)[0]
-predicted_film_value = prediction_ridge[0]
+predicted_film_value = prediction_ridge_test[0]
 print('True value for the first film in the test set is : ' + str(true_film_value))
 print('Predicted value for the first film in the test set is : ' + str(predicted_film_value))
+######################################################
 
-
+######################################################
 # Poly Model
 poly_features = PolynomialFeatures(degree=3)
 x_train_poly = poly_features.fit_transform(x_train)
@@ -416,13 +421,21 @@ poly_model = linear_model.LinearRegression()
 poly_model.fit(x_train_poly, y_train)
 
 print("")
+# train error
 prediction_ploy_train = poly_model.predict(x_train_poly)
-print('MSE Poly {TRAIN}', metrics.mean_squared_error(y_train, prediction_ploy_train))
+print('MSE Poly {Train}',  f"{metrics.mean_squared_error(y_train, prediction_ploy_train):,}")
+print('MSE Poly R2 {Train}: ', metrics.r2_score(y_train, prediction_ploy_train))
+# test error
 prediction_ploy_test = poly_model.predict(x_test_poly)
-print('MSE Poly {TEST}', metrics.mean_squared_error(y_test, prediction_ploy_test))
-print("")
+print('MSE Poly {Test}',  f"{metrics.mean_squared_error(y_test, prediction_ploy_test):,}")
+print('MSE Poly R2 {Test}: ', metrics.r2_score(y_test, prediction_ploy_test))
 
+filename = 'polyRegModel.sav'
+pickle.dump(poly_model, open(filename, 'wb'))
+
+print("")
 true_film_value = np.asarray(y_test)[0]
 predicted_film_value = prediction_ploy_test[0]
 print('True value for the first film in the test set is : ' + str(true_film_value))
 print('Predicted value for the first film in the test set is : ' + str(predicted_film_value))
+######################################################
