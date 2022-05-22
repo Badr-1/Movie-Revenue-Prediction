@@ -376,7 +376,7 @@ sns.heatmap(top_corr, annot=True)
 y = data['revenue']
 x = data[top_feature]
 with open ("features.csv","w") as f:
-    l = [x for x in top_feature]
+    l = [x.strip('\n') for x in top_feature]
     l.remove("revenue")
     csv.writer(f).writerow(l)
 

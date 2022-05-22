@@ -1,5 +1,4 @@
 import datetime
-from msilib.schema import Feature
 import requests
 import pandas as pd
 import numpy as np
@@ -17,7 +16,6 @@ def loadModels():
     filename = "polyRegModel.sav"
     model2 = pickle.load(open(filename, 'rb'))
     return model1,model2
-
 def loadTest():
     def merge_data():
         act_data = pd.read_csv("movie-voice-actors.csv")
@@ -36,11 +34,11 @@ def loadTest():
         merged_data = merged_data[[col for col in merged_data.columns if col != "revenue"] + ["revenue"]]
         return merged_data
 
-    data = merge_data()
+    # data = merge_data()
+    data = pd.read_csv("merged_full_data.csv")
     ytest = data["revenue"]
     xtest = data.drop(["revenue"],axis=1)
     return xtest,ytest
-
 def release_date_feature_extraction(data):
     data['day'] = pd.DatetimeIndex(data['release_date']).day
     data['month'] = pd.DatetimeIndex(data['release_date']).month
@@ -60,8 +58,8 @@ def release_date_feature_extraction(data):
             data.iloc[i, data.columns.get_loc('new_movie')] =1
 def rating_label_encoding(data):
     lbl_encode = LabelEncoder()
-    data['rate'] = lbl_encode.fit_transform(data['MPAA_rating'])
-    data.drop(['MPAA_rating'], axis=1, inplace=True)
+    data['rate'] = lbl_encode.fit_transform(data['rate'])
+    data.drop(['rate'], axis=1, inplace=True)
 def genre_ordinal_encoding(data):
     mapped_genre = {'Comedy': 9, 'Adventure': 13, 'Drama': 7, 'Action': 12, 'Musical': 15, 'Romantic Comedy': 8,
                     'Horror': 3, \
@@ -69,37 +67,35 @@ def genre_ordinal_encoding(data):
                     'Western': 5, \
                     'Romance': 10, 'Animation': 11}
     data['genre'] = data['genre'].replace(mapped_genre)
-
 def preprocess(xtest,ytest):
     # Y processing
     # removing $ and ,
-    ytest = ytest.str.replace('$', '', regex=False)
-    ytest = ytest.str.replace(',', '', regex=False)
-    ytest = ytest.astype(float)
-    ytest = ytest.fillna(ytest.mean())
+    # ytest = ytest.str.replace('$', '', regex=False)
+    # ytest = ytest.str.replace(',', '', regex=False)
+    # ytest = ytest.astype(float)
+    # ytest = ytest.fillna(ytest.mean())
 
     # X processing
-    
     # load and add pretrained feature columns
     with open ("features.csv") as f:
         features = f.read().split(",")
+        features = [x.strip('\n')for x in features]
         for feature in features:
             if not feature in xtest.columns:
-                xtest[feature.strip('\n')] = 0
+                xtest[feature] = 0
 
         xtest.loc[xtest.director == "David Hand", "David Hand"] = 1
+        xtest = xtest[xtest.columns.intersection(features)]
 
-    print(xtest)
     rating_label_encoding(xtest)
-   
-    # TODO: NAN values dont exist in dict
     genre_ordinal_encoding(xtest)
-   
     release_date_feature_extraction(xtest)
-    print(xtest)
-
     return xtest,ytest
 
 linearModel, polyModel = loadModels()
 xtest,ytest = loadTest()
+xtest.dropna(inplace=True, subset=['release_date'])
 xtest, ytest = preprocess(xtest,ytest)
+
+print(linearModel.score(xtest,ytest))
+print(polyModel.score(xtest,ytest))
