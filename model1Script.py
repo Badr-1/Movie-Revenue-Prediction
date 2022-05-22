@@ -96,6 +96,6 @@ linearModel, polyModel = loadModels()
 xtest,ytest = loadTest()
 xtest.dropna(inplace=True, subset=['release_date'])
 xtest, ytest = preprocess(xtest,ytest)
-
+# TODO: Issue genre still contains string ie family
 print(linearModel.score(xtest,ytest))
 print(polyModel.score(xtest,ytest))
