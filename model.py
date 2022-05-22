@@ -2,6 +2,7 @@ import datetime
 
 import requests
 import pandas as pd
+from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import OrdinalEncoder
 from sklearn.preprocessing import OneHotEncoder
@@ -374,10 +375,10 @@ sns.heatmap(top_corr, annot=True)
 
 # dividing data
 y = data['revenue']
+top_feature = top_feature.drop(['revenue'])
 x = data[top_feature]
 with open ("features.csv","w") as f:
     l = [x.strip('\n') for x in top_feature]
-    l.remove("revenue")
     csv.writer(f).writerow(l)
 
 #####################################
@@ -415,10 +416,15 @@ print('Predicted value for the first film in the test set is : ' + str(predicted
 # Poly Model
 poly_features = PolynomialFeatures(degree=3)
 x_train_poly = poly_features.fit_transform(x_train)
-x_test_poly = poly_features.fit_transform(x_test)
+x_test_poly = poly_features.transform(x_test)
 
 poly_model = linear_model.LinearRegression()
 poly_model.fit(x_train_poly, y_train)
+
+filename = 'polyRegModel.sav'
+pickle.dump(poly_model, open(filename, 'wb'))
+filename = 'poly_features.sav'
+pickle.dump(poly_features, open(filename, 'wb'))
 
 print("")
 # train error
@@ -430,12 +436,10 @@ prediction_ploy_test = poly_model.predict(x_test_poly)
 print('MSE Poly {Test}',  f"{metrics.mean_squared_error(y_test, prediction_ploy_test):,}")
 print('MSE Poly R2 {Test}: ', metrics.r2_score(y_test, prediction_ploy_test))
 
-filename = 'polyRegModel.sav'
-pickle.dump(poly_model, open(filename, 'wb'))
-
 print("")
 true_film_value = np.asarray(y_test)[0]
 predicted_film_value = prediction_ploy_test[0]
 print('True value for the first film in the test set is : ' + str(true_film_value))
 print('Predicted value for the first film in the test set is : ' + str(predicted_film_value))
+
 ######################################################
