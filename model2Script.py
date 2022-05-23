@@ -1,5 +1,6 @@
 import pickle
 import pandas as pd
+import numpy as np
 from sklearn.preprocessing import OrdinalEncoder
 from sklearn.metrics import precision_recall_fscore_support
 
@@ -109,6 +110,9 @@ data = load_data()
 data.dropna(subset=['MovieSuccessLevel'], inplace=True)
 data.drop(['movie_title',"character"], inplace=True,axis=1)
 
+data = data.sample(frac=1)
+data = data.iloc[0:30,:]
+
 x_test = data.drop("MovieSuccessLevel", axis=1)
 y_test = data["MovieSuccessLevel"]
 
@@ -127,10 +131,28 @@ release_date_feature_extraction(x_test)
 
 normalize_data(x_test)
 
-print("SVM:",svm.predict(x_test,y_test))
+def printMetrics(model,x_test,y_test):
+    model.predict(x_test)
+    y_prediction = model.predict(x_test)
+    accuracy=np.mean(y_prediction == y_test)
+    precision,recall,fscore,support = precision_recall_fscore_support(y_test, y_prediction,zero_division=1)
+    print("Accuracy:",accuracy * 100)
+    print("precision: {0}".format(precision))
+    print("recall: {0}".format(recall))
+    print("fscore: {0}".format(fscore))
+    print("support: {0}".format(support))
+    print()
 
-print("Decision Tree:",DecisionTree.predict(x_test,y_test))
 
-print("Adaboost:",Adaboost.predict(x_test,y_test))
+print("SVM:")
+printMetrics(svm,x_test,y_test)
 
-print("Logistic Regression:",LogisticReg.predict(x_test,y_test))
+print("Decision Tree:")
+printMetrics(DecisionTree,x_test,y_test)
+
+print("Adaboost:")
+printMetrics(Adaboost,x_test,y_test)
+
+print("Logistic Regression:",)
+printMetrics(LogisticReg,x_test,y_test)
+

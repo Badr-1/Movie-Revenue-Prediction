@@ -29,7 +29,7 @@ import seaborn as sns
 import numpy as np
 import joblib
 import scipy.stats as stats
-
+import csv
 
 def merge_data():
     act_data = pd.read_csv("movie-voice-actors.csv")
@@ -131,9 +131,12 @@ y = df['revenue']
 print(top_feature)
 x = df[top_feature]
 
+with open ("featurez.csv","w") as f:
+    l = [x.strip('\n') for x in top_feature]
+    csv.writer(f).writerow(l)
+
 scaler = MinMaxScaler()
 x = scaler.fit_transform(x)
-
 # splitting data to train and test
 x_train, x_test, y_train, y_test = train_test_split(x,
                                                     y,

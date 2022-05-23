@@ -210,7 +210,8 @@ data = merge_data()
 data = cleaning(data)
 data = fill(data)
 data = encoding(data)
-x, y = divide_data(data,feature_selection(data))
+featurez = pd.read_csv("featurez.csv")
+x, y = divide_data(data,featurez.columns)
 x = apply_scalling(x)
 
 # load and predict
