@@ -1,0 +1,464 @@
+movie_title,release_date,genre,MPAA_rating,MovieSuccessLevel
+Recess: School's Out,16-Feb-01,Comedy,G,C
+D2: The Mighty Ducks,25-Mar-94,Comedy,PG,B
+Home on the Range,2-Apr-04,Comedy,PG,C
+Young Black Stallion,25-Dec-03,Adventure,G,D
+What's Love Got to Do With It,9-Jun-93,Drama,R,B
+Lady and the Tramp,22-Jun-55,Drama,G,S
+Corky Romano,12-Oct-01,Comedy,PG-13,C
+The Waterboy,6-Nov-98,Comedy,PG-13,A
+Captain America: The Winter Soldier,4-Apr-14,Action,PG-13,A
+Pirates of the Caribbean: Dead Man’…,7-Jul-06,Adventure,PG-13,S
+Ladder 49,1-Oct-04,Action,PG-13,B
+Coyote Ugly,4-Aug-00,Drama,PG-13,B
+The Sixth Man,28-Mar-97,Comedy,PG-13,C
+Dick Tracy,15-Jun-90,Action,PG,A
+Sister Act 2 Back in the Habit,10-Dec-93,Comedy,PG,B
+DuckTales: The Movie - Treasure of th…,3-Aug-90,Adventure,G,C
+Blame it on the Bellboy,6-Mar-92,Comedy,PG-13,D
+The Hunchback of Notre Dame,21-Jun-96,Adventure,G,B
+Ernest Goes to Jail,6-Apr-90,Comedy,PG,C
+Ant-Man,17-Jul-15,Action,PG-13,B
+The Shaggy Dog,10-Mar-06,Comedy,PG,B
+The Life Aquatic with Steve Zissou,10-Dec-04,Comedy,R,C
+Bridge to Terabithia,16-Feb-07,Drama,PG,B
+Beauty and the Beast,13-Nov-91,Musical,G,A
+Miami Rhapsody,27-Jan-95,Romantic Comedy,PG-13,D
+A Bug's Life,20-Nov-98,Adventure,G,A
+3 Men and a Little Lady,21-Nov-90,Comedy,PG,B
+The Puppet Masters,21-Oct-94,Horror,R,D
+Signs,2-Aug-02,Thriller/Suspense,PG-13,A
+Dead Presidents,4-Oct-95,Drama,R,C
+"McFarland, USA",20-Feb-15,Drama,PG,C
+George Of The Jungle,16-Jul-97,Comedy,PG,B
+Bound by Honor,16-Apr-93,,R,D
+The Avengers,4-May-12,Action,PG-13,S
+Ten Things I Hate About You,31-Mar-99,Romantic Comedy,PG-13,C
+Earth,22-Apr-09,Documentary,G,C
+Hello Again,6-Nov-87,Comedy,,C
+When a Man Loves a Woman,29-Apr-94,Drama,R,B
+Unbreakable,22-Nov-00,Thriller/Suspense,PG-13,B
+3 Men and a Baby,25-Nov-87,Comedy,PG,A
+X Games 3D: The Movie,21-Aug-09,Documentary,PG,D
+Cars 2,24-Jun-11,Adventure,G,A
+The Princess Diaries 2: Royal Engagement,11-Aug-04,Romantic Comedy,G,B
+The Jungle Book 2,14-Feb-03,Adventure,G,C
+Aspen Extreme,22-Jan-93,Romantic Comedy,PG-13,D
+Noises Off...,20-Mar-92,Comedy,PG-13,D
+He Got Game,1-May-98,Drama,R,C
+Bringing Down the House,7-Mar-03,Comedy,PG-13,B
+Bon Voyage!,17-May-62,Comedy,Not Rated,B
+Doctor Strange,4-Nov-16,Adventure,PG-13,A
+Flubber,26-Nov-97,Comedy,PG,B
+Roving Mars,27-Jan-06,Documentary,G,D
+Captain Ron,18-Sep-92,Comedy,PG-13,C
+Shadow Conspiracy,31-Jan-97,Thriller/Suspense,R,D
+Good Morning Vietnam,23-Dec-87,Comedy,R,A
+Babes in Toyland,14-Dec-61,Musical,G,B
+An Innocent Man,6-Oct-89,Drama,R,C
+Summer of Sam,2-Jul-99,Drama,R,C
+The Good Dinosaur,25-Nov-15,Adventure,PG,B
+Angels in the Outfield,15-Jul-94,Comedy,PG,B
+Tough Guys,3-Oct-86,Comedy,,C
+Something Wicked This Way Comes,29-Apr-83,Horror,,D
+The Rocketeer,21-Jun-91,Action,PG,B
+Stakeout,5-Aug-87,Comedy,R,B
+National Treasure 2: Book of Secrets,21-Dec-07,Adventure,PG,A
+Terminal Velocity,23-Sep-94,Action,PG-13,C
+Apocalypto,8-Dec-06,Adventure,R,C
+Invincible,25-Aug-06,Drama,PG,B
+25th Hour,19-Dec-02,Drama,R,D
+Mighty Joe Young,25-Dec-98,Adventure,PG,B
+Deceived,27-Sep-91,Thriller/Suspense,PG-13,C
+Never Cry Wolf,7-Oct-83,Drama,,B
+G-Force,24-Jul-09,Adventure,PG,B
+Feast of July,13-Oct-95,Drama,R,D
+The Lookout,30-Mar-07,Drama,R,D
+Cool Runnings,1-Oct-93,Comedy,PG,B
+Alice Through the Looking Glass,27-May-16,Adventure,PG,B
+The Devil and Max Devlin,1-Jan-81,,,C
+The Chronicles of Narnia: Prince Caspian,16-May-08,Adventure,PG,B
+The Insider,5-Nov-99,Drama,R,C
+Camp Nowhere,26-Aug-94,Comedy,PG,C
+The Rock,7-Jun-96,Action,R,A
+Green Card,25-Dec-90,Romantic Comedy,PG-13,C
+Real Steel,7-Oct-11,Action,PG-13,B
+A Kid in King Arthur's Court,11-Aug-95,Adventure,PG,C
+The Last Flight of Noah’s Ark,25-Jun-80,,,C
+African Cats,22-Apr-11,Documentary,G,D
+Toy Story 3D Double Feature,2-Oct-09,Adventure,G,C
+Into the Woods,25-Dec-14,Musical,PG,B
+Finding Nemo,30-May-03,Adventure,G,S
+The Good Mother,4-Nov-88,Drama,,D
+The Hundred-Foot Journey,8-Aug-14,Romantic Comedy,PG,C
+Pearl Harbor,25-May-01,Action,PG-13,A
+Pirates of the Caribbean: At World’…,24-May-07,Adventure,PG-13,A
+Color of Night,19-Aug-94,Thriller/Suspense,R,C
+Romy and Michele's High School Reunion,25-Apr-97,Comedy,R,C
+Cheetah,18-Aug-89,Adventure,,D
+Jack,9-Aug-96,Drama,PG-13,B
+Monsters University,21-Jun-13,Adventure,G,A
+The Fifth Estate,18-Oct-13,Drama,R,D
+Before and After,23-Feb-96,Drama,PG-13,D
+Moonlight Mile,27-Sep-02,Drama,PG-13,D
+A Stranger Among Us,17-Jul-92,Drama,PG-13,C
+The Lizzie McGuire Movie,2-May-03,Comedy,PG,C
+Krippendorf's Tribe,27-Feb-98,Comedy,PG-13,D
+crazy/beautiful,29-Jun-01,Drama,PG-13,C
+Adventures in Babysitting,3-Jul-87,Comedy,,B
+The Game Plan,22-Sep-07,Comedy,PG,B
+Splash,9-Mar-84,Comedy,PG,B
+Who Framed Roger Rabbit?,22-Jun-88,Comedy,PG,A
+The Light Between Oceans,2-Sep-16,Drama,PG-13,D
+The Guardian,29-Sep-06,Action,PG-13,B
+The Sword in the Stone,25-Dec-63,Adventure,,B
+Mr. Holland's Opus,29-Dec-95,Drama,PG,B
+The Rescuers Down Under,16-Nov-90,Adventure,G,C
+The Preacher's Wife,13-Dec-96,Drama,PG,B
+Sarafina!,18-Sep-92,Drama,PG-13,D
+Trenchcoat,11-Mar-83,Comedy,,D
+Confessions of a Teenage Drama Queen,20-Feb-04,Comedy,PG,C
+Around the World in 80 Days,16-Jun-04,Adventure,PG,C
+Blaze,13-Dec-89,Drama,R,C
+Toy Story,22-Nov-95,Adventure,G,A
+Prince of Persia: Sands of Time,28-May-10,Action,PG-13,B
+Eddie,31-May-96,Comedy,PG-13,C
+White Fang 2: Myth of the White Wolf,15-Apr-94,Adventure,PG,D
+White Squall,2-Feb-96,Adventure,PG-13,D
+The Invisible,27-Apr-07,Thriller/Suspense,PG-13,C
+Guilty as Sin,4-Jun-93,Thriller/Suspense,R,C
+Operation Dumbo Drop,28-Jul-95,Adventure,PG,C
+Ghosts of the Abyss,11-Apr-03,Documentary,G,C
+Scenes from a Mall,22-Feb-91,Comedy,,D
+The BFG,1-Jul-16,Adventure,PG,C
+Tron,9-Jul-82,Action,,B
+Firelight,4-Sep-98,Drama,R,D
+Delivery Man,22-Nov-13,Comedy,PG-13,C
+New York Stories,1-Mar-89,Drama,PG,C
+Disorganized Crime,14-Apr-89,Comedy,,D
+Tom and Huck,22-Dec-95,Adventure,PG,C
+Keeping the Faith,14-Apr-00,Romantic Comedy,PG-13,C
+Grosse Pointe Blank,11-Apr-97,Black Comedy,R,C
+Indian Summer,23-Apr-93,Comedy,R,C
+The Princess and the Frog,25-Nov-09,Adventure,G,B
+Billy Bathgate,1-Nov-91,Drama,R,C
+3 Ninjas Kick Back,6-May-94,Action,PG,C
+My Boyfriend's Back,6-Aug-93,,PG-13,D
+Goal! The Dream Begins,12-May-06,Drama,PG,D
+Country,29-Sep-84,Drama,,C
+Big Trouble,5-Apr-02,Comedy,PG-13,D
+People Like Us,29-Jun-12,Drama,PG-13,D
+Mars Needs Moms,11-Mar-11,Adventure,PG,C
+Angie,4-Mar-94,Comedy,R,D
+Deuce Bigalow: Male Gigolo,10-Dec-99,Comedy,R,B
+Veronica Guerin,17-Oct-03,Drama,R,D
+Max Keeble's Big Move,5-Oct-01,Comedy,PG,C
+The Scarlet Letter,13-Oct-95,Drama,R,C
+D3: The Mighty Ducks,4-Oct-96,Comedy,PG,C
+Up,29-May-09,Adventure,PG,A
+Alive,15-Jan-93,Adventure,R,B
+Can't Buy Me Love,14-Aug-87,Romantic Comedy,,C
+The Hoax,6-Apr-07,Drama,R,D
+Fantasia,13-Nov-40,Musical,G,S
+Crimson Tide,12-May-95,Action,R,B
+Ransom,8-Nov-96,Action,R,A
+Pretty Woman,23-Mar-90,Romantic Comedy,R,A
+Inspector Gadget,23-Jul-99,Comedy,PG,B
+Winnie the Pooh,15-Jul-11,Adventure,G,C
+The Tigger Movie,11-Feb-00,Adventure,G,B
+Heavy Weights,17-Feb-95,Comedy,PG,C
+What About Bob?,17-May-91,Comedy,PG,B
+Condorman,7-Aug-81,Action,,D
+The Haunted Mansion,26-Nov-03,Comedy,PG,B
+The Hitchhiker's Guide to the Galaxy,29-Apr-05,Comedy,PG,C
+Bedknobs and Broomsticks,7-Oct-71,Musical,,B
+Pooh's Heffalump Movie,11-Feb-05,Adventure,G,C
+Open Range,15-Aug-03,Western,R,B
+D.O.A.,18-Mar-88,Thriller/Suspense,,C
+Meet the Deedles,27-Mar-98,Comedy,PG,D
+A Beautiful Planet,29-Apr-16,Documentary,G,D
+Sister Act,29-May-92,Comedy,PG,A
+Strange Magic,23-Jan-15,Adventure,PG,D
+The Many Adventures of Winnie the Pooh,11-Mar-77,,,D
+Quiz Show,14-Sep-94,Drama,PG-13,C
+While You Were Sleeping,21-Apr-95,Romantic Comedy,PG,B
+Bedtime Stories,25-Dec-08,Comedy,PG,B
+"The Chronicles of Narnia: The Lion, t…",9-Dec-05,Adventure,PG,A
+Instinct,4-Jun-99,Drama,R,C
+Step Up,11-Aug-06,Drama,PG-13,B
+G.I. Jane,22-Aug-97,Drama,R,B
+Oscar,26-Apr-91,Comedy,PG,C
+The Parent Trap,29-Jul-98,Comedy,PG,B
+Primeval,12-Jan-07,Adventure,R,D
+The Lone Ranger,2-Jul-13,Western,PG-13,B
+"Monsters, Inc.",2-Nov-01,Adventure,G,A
+Reign of Fire,19-Feb-02,Action,PG-13,C
+Running Brave,4-Nov-83,Drama,,D
+Dinosaur,19-May-00,Adventure,PG,A
+Rushmore,11-Dec-98,Black Comedy,R,C
+Freaky Friday,21-Jan-77,Comedy,,B
+The 13th Warrior,27-Aug-99,Action,R,C
+Brave,22-Jun-12,Adventure,PG,A
+Eight Below,17-Feb-06,Adventure,PG,B
+Gake no ue no Ponyo,14-Aug-09,Adventure,G,D
+Queen of Katwe,23-Sep-16,Drama,PG,D
+Straight Talk,3-Apr-92,Comedy,PG,C
+Holy Man,9-Oct-98,Comedy,PG,C
+The Sorcerer's Apprentice,14-Jul-10,Adventure,PG,C
+Stella,2-Feb-90,Drama,PG-13,C
+An American Werewolf in Paris,25-Dec-97,Horror,R,C
+The Mighty Ducks,2-Oct-92,Comedy,PG,B
+Tall Tale,24-Mar-95,Western,PG,D
+Tangled,24-Nov-10,Adventure,PG,A
+Ed Wood,30-Sep-94,Comedy,R,D
+The Jerky Boys,3-Feb-95,Comedy,R,D
+The Rich Man's Wife,13-Sep-96,Thriller/Suspense,R,D
+"20,000 Leagues Under the Sea",23-Dec-54,Adventure,,S
+Super Mario Bros.,28-May-93,Action,PG,C
+The Proposal,19-Jun-09,Romantic Comedy,PG-13,B
+Race to Witch Mountain,13-Mar-09,Adventure,PG,B
+The Adventures of Huck Finn,2-Apr-93,Adventure,PG,C
+Jefferson in Paris,31-Mar-95,Drama,PG-13,D
+The Jungle Book,15-Apr-16,Adventure,PG,A
+Sky High,29-Jul-05,Adventure,PG,B
+Toy Story 2,19-Nov-99,Adventure,G,A
+The Rescuers,22-Jun-77,Adventure,,B
+Remember the Titans,29-Sep-00,Drama,PG,B
+A Lot Like Love,22-Apr-05,Comedy,PG-13,C
+3 Ninjas,7-Aug-92,Action,PG,C
+Flight of the Navigator,30-Jul-86,Adventure,,C
+America's Heart and Soul,2-Jul-04,Documentary,Not Rated,D
+Swing Vote,1-Aug-08,Comedy,PG-13,D
+The Straight Story,15-Oct-99,Drama,G,D
+The Kid,7-Jul-00,Comedy,PG,B
+Enchanted,21-Nov-07,Romantic Comedy,PG,B
+Zootopia,4-Mar-16,Adventure,PG,A
+I'll Be Home For Christmas,13-Nov-98,Comedy,PG,C
+The War at Home,20-Nov-96,,R,D
+Peter Pan: Return to Neverland,15-Feb-02,Adventure,G,B
+Ratatouille,29-Jun-07,Comedy,G,A
+Secretariat,8-Oct-10,Drama,PG,C
+Medicine Man,7-Feb-92,Drama,PG-13,B
+A Thousand Acres,19-Sep-97,Drama,R,D
+Mission to Mars,10-Mar-00,Adventure,PG,B
+Brother Bear,24-Oct-03,Adventure,G,B
+Snow White and the Seven Dwarfs,21-Dec-37,Musical,G,S
+Toy Story 3,18-Jun-10,Adventure,G,A
+Miracle,6-Feb-04,Drama,PG,B
+My Favorite Martian,12-Feb-99,Comedy,PG,C
+Benji the Hunted,5-Jun-87,Adventure,,C
+A Far Off Place,12-Mar-93,Adventure,PG,C
+Old Dogs,25-Nov-09,Comedy,PG,C
+Alice in Wonderland,5-Mar-10,Adventure,PG,A
+The Little Mermaid,15-Nov-89,Adventure,G,A
+Stick It,28-Apr-06,Comedy,PG-13,C
+Funny Bones,31-Mar-95,Comedy,R,D
+Cars,9-Jun-06,Comedy,G,A
+Bicentennial Man,17-Dec-99,Drama,PG,B
+Chimpanzee,20-Apr-12,Documentary,G,C
+The Apple Dumpling Gang,1-Jul-75,Comedy,,B
+The Other Sister,26-Feb-99,Romantic Comedy,PG-13,C
+A Simple Twist of Fate,2-Sep-94,Drama,PG-13,D
+Where the Heart Is,23-Feb-90,Comedy,,D
+Kaze Tachinu,8-Nov-13,Drama,PG-13,D
+Off Beat,11-Apr-86,Comedy,,D
+The Greatest Game Ever Played,30-Sep-05,Drama,PG,C
+The Three Musketeers,12-Nov-93,Adventure,PG,B
+A Civil Action,25-Dec-98,Drama,PG-13,B
+Walt and El Grupo,10-Sep-09,Documentary,PG,D
+Powder,27-Oct-95,Drama,PG-13,C
+1492: Conquest of Paradise,9-Oct-92,Adventure,PG-13,D
+The Cemetery Club,3-Feb-93,Comedy,PG-13,D
+Stay Alive,24-Mar-06,Horror,PG-13,C
+That Darn Cat,14-Feb-97,Comedy,PG,C
+The Muppet Christmas Carol,11-Dec-92,Comedy,G,C
+Step Up 2 the Streets,14-Feb-08,Drama,PG-13,C
+Fantasia 2000 (Theatrical Release),16-Jun-00,Musical,G,D
+The Santa Clause 2,1-Nov-02,Comedy,G,A
+The Recruit,31-Jan-03,Thriller/Suspense,PG-13,B
+Money for Nothing,10-Sep-93,Comedy,R,D
+Bad Company,20-Jan-95,Thriller/Suspense,R,D
+I Love Trouble,29-Jun-94,Romantic Comedy,PG,C
+The Absent Minded Professor,16-Mar-61,Comedy,,A
+Jungle 2 Jungle,7-Mar-97,Comedy,PG,B
+Tex,19-Nov-82,Drama,,C
+Life With Mikey,4-Jun-93,Comedy,PG,C
+Gone Fishin',30-May-97,Comedy,PG,C
+Rogue One: A Star Wars Story,16-Dec-16,Adventure,PG-13,S
+The Marrying Man,5-Apr-91,Romantic Comedy,R,C
+Bubble Boy,24-Aug-01,Comedy,PG-13,D
+Baby: Secret of the Lost Legend,22-Mar-85,Adventure,,C
+The Fox and the Hound,10-Jul-81,Comedy,,B
+High Heels and Low Lifes,26-Oct-01,,R,D
+The Tie That Binds,8-Sep-95,Thriller/Suspense,R,D
+John Carter,9-Mar-12,Adventure,PG-13,B
+Blank Check,11-Feb-94,Comedy,PG,C
+Guardians of the Galaxy,1-Aug-14,Adventure,PG-13,A
+Star Wars Ep. VII: The Force Awakens,18-Dec-15,Adventure,PG-13,S
+A Goofy Movie,7-Apr-95,Comedy,G,C
+Hocus Pocus,16-Jul-93,Comedy,PG,B
+Pete’s Dragon,12-Aug-16,Adventure,PG,B
+Night Crossing,5-Feb-82,Drama,,D
+Lilo & Stitch,21-Jun-02,Adventure,PG,A
+Metro,17-Jan-97,Action,R,C
+National Treasure,19-Nov-04,Adventure,PG,A
+Shanghai Noon,26-May-00,Western,PG-13,B
+Dangerous Minds,11-Aug-95,Drama,R,B
+The Distinguished Gentleman,4-Dec-92,Comedy,R,B
+The Secret World of Arietty,17-Feb-12,Adventure,G,C
+The Princess Diaries,3-Aug-01,Comedy,G,B
+Step Up 3D,6-Aug-10,Drama,PG-13,C
+Underdog,3-Aug-07,Adventure,PG,C
+Red Rock West,28-Jan-94,,R,D
+Captain America: Civil War,6-May-16,Action,PG-13,A
+Mr. Wrong,16-Feb-96,Romantic Comedy,PG-13,C
+Nixon,20-Dec-95,Drama,R,C
+The Ref,9-Mar-94,Comedy,R,C
+The Santa Clause 3: The Escape Clause,3-Nov-06,Comedy,G,B
+Ice Princess,18-Mar-05,Comedy,G,C
+King Arthur,7-Jul-04,Adventure,PG-13,B
+Nothing To Lose,18-Jul-97,Comedy,R,B
+Herbie: Fully Loaded,22-Jun-05,Comedy,G,B
+Father of the Bride,20-Dec-91,Comedy,PG,B
+You Again,24-Sep-10,Comedy,PG,C
+Treasure Planet,27-Nov-02,Adventure,PG,C
+The Great Mouse Detective,2-Jul-86,Adventure,,C
+Cinderella,13-Mar-15,Drama,PG,A
+Frozen,22-Nov-13,Adventure,PG,A
+Pirates of the Caribbean: On Stranger…,20-May-11,Adventure,PG-13,A
+Zokkomon,22-Apr-11,Adventure,PG,D
+Gross Anatomy,20-Oct-89,Drama,PG-13,C
+The Incredibles,5-Nov-04,Adventure,PG,A
+Frank McKlusky C.I.,1-Jan-02,,,D
+Taking Care of Business,17-Aug-90,Comedy,R,C
+Tim Burton's The Nightmare Before Chr…,20-Oct-06,Musical,PG,C
+Cocktail,29-Jul-88,Drama,R,B
+Gun Shy,4-Feb-00,Comedy,R,D
+Mr. Destiny,12-Oct-90,Comedy,PG-13,C
+Herbie Goes to Monte Carlo,24-Jun-77,,,B
+Evita,25-Dec-96,Musical,PG,B
+Dark Water,8-Jul-05,Thriller/Suspense,PG-13,C
+Piglet's Big Movie,21-Mar-03,Comedy,G,C
+Kazaam,17-Jul-96,Comedy,PG,C
+Déjà Vu,22-Nov-06,Thriller/Suspense,PG-13,B
+Waking Sleeping Beauty,26-Mar-10,Documentary,PG,D
+The Count of Monte Cristo,25-Jan-02,Drama,PG-13,B
+The Program,24-Sep-93,Action,R,C
+When in Rome,29-Jan-10,Romantic Comedy,PG-13,C
+Born Yesterday,26-Mar-93,Romantic Comedy,PG,C
+The Alamo,9-Apr-04,Western,PG-13,C
+Mad Love,26-May-95,Drama,PG-13,C
+Armageddon,1-Jul-98,Adventure,PG-13,A
+Air Bud,1-Aug-97,Comedy,PG,C
+Fire Birds,24-May-90,Action,PG-13,C
+The Black Cauldron,24-Jul-85,Adventure,,C
+Oz the Great and Powerful,8-Mar-13,Adventure,PG,A
+Two Much,15-Mar-96,Romantic Comedy,PG-13,D
+102 Dalmatians,22-Nov-00,Comedy,G,B
+The Pacifier,4-Mar-05,Comedy,PG,B
+Prom,29-Apr-11,Comedy,PG,D
+Un indien dans la ville,22-Mar-96,Comedy,PG,D
+Annapolis,27-Jan-06,Drama,PG-13,C
+The Country Bears,26-Jul-02,Adventure,G,C
+Planes: Fire and Rescue,18-Jul-14,Adventure,PG,C
+Tin Men,6-Mar-87,Comedy,,C
+Renaissance Man,3-Jun-94,Comedy,PG-13,C
+Playing God,17-Oct-97,Thriller/Suspense,R,D
+Phenomenon,5-Jul-96,Drama,PG,B
+Gnomeo and Juliet,11-Feb-11,Comedy,G,B
+The Color of Money,17-Oct-86,Drama,R,B
+Blackbeard's Ghost,8-Feb-68,Comedy,,B
+Ernest Scared Stupid,11-Oct-91,Comedy,PG,C
+The Emperor's New Groove,15-Dec-00,Adventure,G,B
+Double Take,12-Jan-01,Action,PG-13,C
+Rocket Man,10-Oct-97,Comedy,PG,C
+Mulan,19-Jun-98,Adventure,G,A
+Song of the South,12-Nov-46,Adventure,G,S
+The Black Hole,21-Dec-79,,,B
+Raising Helen,28-May-04,Comedy,PG-13,C
+A Gun in Betty Lou's Handbag,21-Aug-92,,PG-13,D
+The Air Up There,7-Jan-94,Comedy,PG,C
+Roommates,3-Mar-95,Comedy,PG,C
+Morning Light,17-Oct-08,Documentary,PG,D
+Valiant,19-Aug-05,Adventure,G,C
+Down and Out in Beverly Hills,31-Jan-86,Comedy,R,B
+Tarzan,16-Jun-99,Adventure,G,A
+The Royal Tenenbaums,14-Dec-01,Black Comedy,R,B
+James and the Giant Peach,12-Apr-96,Adventure,PG,C
+"Mystery, Alaska",1-Oct-99,Comedy,R,D
+Last Dance,3-May-96,Drama,R,D
+My Science Project,9-Aug-85,Comedy,,D
+Homeward Bound II: Lost in San Franc…,8-Mar-96,Adventure,G,C
+The Muppets,23-Nov-11,Comedy,PG,B
+Turner & Hooch,28-Jul-89,Comedy,PG,B
+Oceans,22-Apr-10,Documentary,G,C
+It's Pat,26-Aug-94,Comedy,,D
+The Finest Hours,29-Jan-16,Thriller/Suspense,PG,C
+Shoot to Kill,12-Feb-88,Action,,C
+Hannah Montana the Movie,10-Apr-09,Drama,G,B
+First Kid,30-Aug-96,Comedy,PG,C
+Consenting Adults,16-Oct-92,Drama,R,C
+Dan in Real Life,20-Oct-07,Romantic Comedy,PG-13,C
+Sorority Boys,22-Mar-02,Comedy,R,D
+Simon Birch,11-Sep-98,Drama,PG,C
+In the Army Now,12-Aug-94,Comedy,PG,C
+Bad Company,7-Jun-02,Action,PG-13,C
+Wreck-It Ralph,2-Nov-12,Adventure,PG,A
+Iron Man 3,3-May-13,Action,PG-13,A
+Cinderella,15-Feb-50,Drama,G,S
+One Magic Christmas,22-Nov-85,Drama,,C
+Beverly Hills Chihuahua,3-Oct-08,Comedy,PG,B
+WALL-E,27-Jun-08,Adventure,G,A
+Aladdin,11-Nov-92,Comedy,G,A
+Casanova,25-Dec-05,Drama,R,D
+Thor: The Dark World,8-Nov-13,Adventure,PG-13,A
+Monkey Kingdom,17-Apr-15,Documentary,G,D
+Ernest Saves Christmas,11-Nov-88,Comedy,PG,C
+Hannah Montana/Miley Cyrus: Best of B…,1-Feb-08,Concert/Performance,G,B
+Saving Mr. Banks,13-Dec-13,Drama,PG-13,B
+The Aristocats,24-Apr-70,Musical,G,A
+Calendar Girls,19-Dec-03,Comedy,PG-13,C
+Unstrung Heroes,15-Sep-95,Drama,PG,D
+Three Fugitives,27-Jan-89,Comedy,PG-13,B
+Tomorrowland,22-May-15,Adventure,PG,B
+The Village,30-Jul-04,Thriller/Suspense,PG-13,B
+"Alexander and the Terrible, Horrible,…",10-Oct-14,Comedy,PG,C
+Arachnophobia,18-Jul-90,Thriller/Suspense,PG-13,B
+Lincoln,9-Nov-12,Drama,PG-13,B
+The Horse Whisperer,15-May-98,Drama,PG-13,B
+Muppets Most Wanted,21-Mar-14,Comedy,PG,C
+Fantasia 2000 (IMAX),1-Jan-00,Musical,G,B
+Spaced Invaders,27-Apr-90,Comedy,PG,C
+Just Visiting,6-Apr-01,Comedy,PG-13,D
+Holes,18-Apr-03,Drama,PG,B
+The Last Shot,24-Sep-04,Comedy,R,D
+The Jungle Book,18-Oct-67,Musical,Not Rated,S
+Meet the Robinsons,30-Mar-07,Adventure,G,B
+Dead Poets Society,2-Jun-89,Drama,PG,A
+Avengers: Age of Ultron,1-May-15,Action,PG-13,A
+Man of the House,3-Mar-95,Comedy,PG,B
+Bears,18-Apr-14,Documentary,G,D
+Passed Away,24-Apr-92,,PG-13,D
+ESPN's Ultimate X - The Movie,10-May-02,Documentary,PG,D
+Atlantis: The Lost Empire,8-Jun-01,Adventure,PG,B
+Ernest Goes to Camp,22-May-87,Comedy,,C
+Teacher's Pet: The Movie,16-Jan-04,Comedy,PG,D
+Spy Hard,24-May-96,Comedy,PG-13,C
+Snow Dogs,18-Jan-02,Comedy,PG,B
+Frankenweenie,5-Oct-12,Comedy,PG,C
+Tuck Everlasting,11-Oct-02,Drama,PG,C
+Hauru no ugoku shiro,10-Jun-05,Adventure,PG,D
+Gedo Senki (Tales from Earthsea),13-Aug-10,Adventure,PG-13,D
+Return to Oz,21-Jun-85,Adventure,,C
+Disney's A Christmas Carol,6-Nov-09,Drama,PG,B
+Prefontaine,24-Jan-97,Drama,PG-13,D
+Beaches,21-Dec-88,Drama,PG-13,B
+101 Dalmatians,25-Jan-61,Comedy,G,S
+The Last Song,31-Mar-10,Drama,PG,C
+Father Hood,27-Aug-93,,PG-13,D
+Encino Man,22-May-92,Comedy,PG,B
+Sweet Home Alabama,27-Sep-02,Comedy,PG-13,B
+Play it to the Bone,24-Dec-99,Comedy,R,D
+The Odd Life of Timothy Green,15-Aug-12,Drama,PG,C
+Honey I Blew Up the Kid,17-Jul-92,Comedy,PG,B
+Hercules,13-Jun-97,Adventure,G,B
