@@ -137,21 +137,17 @@ def rating_label_encoding():
     # plt.show()
     data.drop(['MPAA_rating'], axis=1, inplace=True)
 
-
 def movie_title_label_encoding():
     lbl_encode = LabelEncoder()
     data['movie_title'] = lbl_encode.fit_transform(data['movie_title'])
-
 
 def character_label_encoding():
     lbl_encode = LabelEncoder()
     data['character'] = lbl_encode.fit_transform(data['character'])
 
-
 def voice_actors_label_encoding():
     lbl_encode = LabelEncoder()
     data['voice-actor'] = lbl_encode.fit_transform(data['voice-actor'])
-
 # Ordinal encoder
 def rating_ordinal_encoding():
     ord_encode = OrdinalEncoder()
@@ -173,7 +169,6 @@ def rating_ordinal_encoding():
     plt.xlabel('Rate (lbl encode)', fontsize=12)
     plt.ylabel('revenue', fontsize=12)
     # plt.show()
-
 # One-Hot encoder
 def rating_one_hot_encoding():
     global data
