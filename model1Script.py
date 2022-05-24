@@ -7,7 +7,10 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn import linear_model
+from sklearn import metrics
 import pickle
+import warnings
+warnings.filterwarnings("ignore")
 
 def loadModels():
     filename = "linearRidgModel.sav"
@@ -18,22 +21,35 @@ def loadModels():
     poly_features = pickle.load(open(filename, 'rb'))
     return model1, model2, poly_features
 
+
 def loadTest():
+
     def merge_data():
-        act_data = pd.read_csv("movie-voice-actors.csv")
-        dir_data = pd.read_csv("movie-director.csv")
-        rev_data = pd.read_csv("movies-revenue.csv")
+        act_data = pd.read_csv(
+            r"ProjectTestSamples\Milestone 1\movies\movie-voice-actors.csv")
+        dir_data = pd.read_csv(
+            r"ProjectTestSamples\Milestone 1\movies\movie-director.csv")
+        rev_data = pd.read_csv(
+            r"ProjectTestSamples\Milestone 1\movies\movies-test-samples.csv")
 
         # rename column titles for merging
         act_data.rename(columns={"movie": "movie_title"}, inplace=True)
         dir_data.rename(columns={"name": "movie_title"}, inplace=True)
 
         # merge all 3 tables using movie_title key
-        merged_data = pd.merge(rev_data, dir_data, on="movie_title", how="outer")
-        merged_data = pd.merge(merged_data, act_data, on="movie_title", how="outer")
+        merged_data = pd.merge(rev_data,
+                               dir_data,
+                               on="movie_title",
+                               how="outer")
+        merged_data = pd.merge(merged_data,
+                               act_data,
+                               on="movie_title",
+                               how="outer")
 
         # reorder revenue column
-        merged_data = merged_data[[col for col in merged_data.columns if col != "revenue"] + ["revenue"]]
+        merged_data = merged_data[
+            [col
+             for col in merged_data.columns if col != "revenue"] + ["revenue"]]
         return merged_data
 
     # data = merge_data()
@@ -44,6 +60,7 @@ def loadTest():
     ytest = data["revenue"]
     xtest = data.drop(["revenue"], axis=1)
     return xtest, ytest
+
 
 def release_date_feature_extraction(data):
     # data['day'] = pd.DatetimeIndex(data['release_date']).day
@@ -58,9 +75,11 @@ def release_date_feature_extraction(data):
         else:
             data.iloc[i, data.columns.get_loc('release_date')] += 2000
 
+
 def rating_label_encoding(data):
     lbl_encode = LabelEncoder()
     data['rate'] = lbl_encode.fit_transform(data['rate'])
+
 
 def genre_ordinal_encoding(data):
     mapped_genre = {'Comedy': 9, 'Adventure': 13, 'Drama': 7, 'Action': 12, 'Musical': 15, 'Romantic Comedy': 8,
@@ -69,6 +88,7 @@ def genre_ordinal_encoding(data):
                     'Western': 5, 'Romance': 10, 'Animation': 11, \
                     'Family': 1, 'Concert/Performance': 1, 'Music': 1}
     data['genre'] = data['genre'].replace(mapped_genre)
+
 
 def preprocess(xtest, ytest):
     # Y processing
@@ -95,14 +115,17 @@ def preprocess(xtest, ytest):
     return xtest, ytest
 
 
-linearModel, polyModel,poilynomia_features_model = loadModels()
+linearModel, polyModel, poilynomia_features_model = loadModels()
 xtest, ytest = loadTest()
 xtest, ytest = preprocess(xtest, ytest)
 
 scaler = MinMaxScaler()
 xtest = scaler.fit_transform(xtest)
-print("linear score: ", linearModel.score(xtest, ytest))
+ridge_pred = linearModel.predict(xtest)
+print('MSE ridge', f"{metrics.mean_squared_error(np.asarray(ytest), ridge_pred):,}")
+print('MSE ridge R2: ', metrics.r2_score(ytest, ridge_pred))
 
 X_val_prep = poilynomia_features_model.transform(xtest)
-predictions = polyModel.predict(X_val_prep)
-print("poly score: ", polyModel.score(X_val_prep, ytest))
+poly_pred = polyModel.predict(X_val_prep)
+print('MSE ploy', f"{metrics.mean_squared_error(np.asarray(ytest), poly_pred):,}")
+print('MSE poly R2: ', metrics.r2_score(ytest, poly_pred))

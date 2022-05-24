@@ -392,11 +392,11 @@ ridg.fit(x_train, y_train)
 print("")
 prediction_ridge_train = ridg.predict(x_train)
 print('MSE ridge {Train}', f"{metrics.mean_squared_error(np.asarray(y_train), prediction_ridge_train):,}")
-print('MSE Linear R2 {Train}: ', metrics.r2_score(y_train, prediction_ridge_train))
+print('MSE ridge R2 {Train}: ', metrics.r2_score(y_train, prediction_ridge_train))
 # test errors
 prediction_ridge_test = ridg.predict(x_test)
 print('MSE ridge {Test}', f"{metrics.mean_squared_error(np.asarray(y_test), prediction_ridge_test):,}")
-print('MSE Linear R2 {Test}: ', metrics.r2_score(y_test, prediction_ridge_test))
+print('MSE ridge R2 {Test}: ', metrics.r2_score(y_test, prediction_ridge_test))
 filename = 'linearRidgModel.sav'
 pickle.dump(ridg, open(filename, 'wb'))
 

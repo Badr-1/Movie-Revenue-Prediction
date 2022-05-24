@@ -84,7 +84,7 @@ def release_date_feature_extraction(data):
 
     data['release_date'] = data['release_date'].str[-2:].astype(int)
     data['release_date'] = data['release_date'].apply(lambda x: x + 1900 if x > 23 and x <= 99 else x + 2000)
-    
+
     data["new_movie"] = 0
     for i in range(len(data)):
         if data['release_date'].iloc[i] >= 1999:
@@ -119,16 +119,25 @@ def train_model(x_train, y_train, x_test, y_test, choice):
         return
 
     model.fit(x_train,y_train)
+    y_prediction = model.predict(x_train)
+    accuracy = np.mean(y_prediction == y_train)
+    precision, recall, fscore, support = precision_recall_fscore_support(y_train, y_prediction, zero_division=1)
+    print("Train {0} accuracy:".format(choice), (accuracy * 100))
+    print("Train {0} precision: {1}".format(choice, precision))
+    print("Train {0} recall: {1}".format(choice, recall))
+    print("Train {0} fscore: {1}".format(choice, fscore))
+    print("Train {0} support: {1}".format(choice, support))
+    print()
     y_prediction = model.predict(x_test)
     accuracy=np.mean(y_prediction == y_test)
     precision,recall,fscore,support = precision_recall_fscore_support(y_test, y_prediction,zero_division=1)
-    print("{0} accuracy:".format(choice), (accuracy * 100))
-    print("{0} precision: {1}".format(choice,precision))
-    print("{0} recall: {1}".format(choice,recall))
-    print("{0} fscore: {1}".format(choice,fscore))
-    print("{0} support: {1}".format(choice,support))
+    print("Test {0} accuracy:".format(choice), (accuracy * 100))
+    print("Test {0} precision: {1}".format(choice,precision))
+    print("Test {0} recall: {1}".format(choice,recall))
+    print("Test {0} fscore: {1}".format(choice,fscore))
+    print("Test {0} support: {1}".format(choice,support))
     print()
-    
+
     filename = ('Models/{0}Model.sav'.format(choice))
     pickle.dump(model, open(filename, 'wb'))
 
@@ -193,4 +202,3 @@ train_model(x_train, y_train, x_test, y_test, "svm")
 train_model(x_train, y_train, x_test, y_test, "tree")
 train_model(x_train, y_train, x_test, y_test, "adaboost")
 train_model(x_train, y_train, x_test, y_test, "logistic")
-
